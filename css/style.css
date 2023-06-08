@@ -9,7 +9,8 @@ body
 {
   background: #111;
   min-height: 200vh;
-
+	padding-bottom: 10000%;
+	background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="36" height="72" viewBox="0 0 36 72"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
 }
 
 header
@@ -24,8 +25,25 @@ header
   transition: 0.6s;
   padding-left: 6px;
   padding-right: 40px;
+  background: #171212;
+  transition: all 300ms ease-in-out;
+  z-index: 9999;
+}
+.btn.btn-primary {
+  display: flex;
 }
 
+
+.pseudo-bft-btn .btn {
+  position: relative;
+  overflow: hidden;
+  width: 17rem;
+  height: 51px;
+  font-family: FuturaPTBold,sans-serif;
+  justify-content: center;
+  border: none;
+  padding: 5px 12px;
+}
 header .logo_navbar
 {
   position: relative;
@@ -39,8 +57,30 @@ header .logo_navbar
   z-index: 100000;
 
 }
-header book_a_demo{
-  background-color: #ff1;
+
+
+.btn {
+  height: 45px;
+  box-sizing: border-box;
+  font-style: normal;
+  background: transparent;
+  font-family: FuturaPT,sans-serif;
+  cursor: pointer;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.btn-primary {
+  -webkit-animation: f 53s linear infinite;
+  animation: f 53s linear infinite;
+  background: linear-gradient(121.19deg,rgba(133,239,49,0) 25.73%,hsla(0,0%,100%,.3) 45.27%,rgba(133,239,49,0) 62.27%),#ff8d1a;
+}
+
+header book{
+  background-color: rgb(18, 36, 51);
 }
 
 
@@ -69,6 +109,8 @@ header ul li a
   transition: 0.6s;
   font-weight: 500px;
 }
+
+
 
 /* .banner
 {
