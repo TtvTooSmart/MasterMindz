@@ -115,20 +115,20 @@ header .logo_navbar
   height: 200%;
   background: linear-gradient(
     to right,
-    rgba(255, 255, 255, 0.2) 50%,
-    rgba(255, 255, 255, 0.4) 10%,
-    rgba(255, 255, 255, 0.2) 50%
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0)
   );
-  transform: rotate(-30deg);
-  animation: shine 1.5s infinite;
+  transform: rotate(0deg) translateX(-150%);
+  animation: shine 2.5s infinite;
 }
 
 @keyframes shine {
   0% {
-    transform: rotate(-30deg) translateX(-150%);
+    transform: rotate(0deg) translateX(-150%);
   }
   100% {
-    transform: rotate(-30deg) translateX(150%);
+    transform: rotate(0deg) translateX(150%);
   }
 }
 
