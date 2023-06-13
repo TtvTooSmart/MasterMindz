@@ -216,7 +216,7 @@ h5.subtitle {
 }
 
 .btn-trans-black {
-  background-color: transparent;
+  /* background-color: transparent; */
   border: 2px solid rgba(0, 0, 0, 0.15);
   color: rgba(0, 0, 0, 0.85);
 }
@@ -227,7 +227,7 @@ h5.subtitle {
 }
 
 .btn-trans-white {
-  background-color: transparent;
+  /* background-color: transparent; */
   border: 2px solid rgba(255, 255, 255, 0.15);
   color: rgba(255, 255, 255, 0.95);
 }
