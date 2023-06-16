@@ -1165,3 +1165,4463 @@ footer {
 }
 
 }
+
+
+
+
+/* ..............................................
+Media css for all devices
+.............................................. */
+
+@media (max-width:1319px){
+
+    h1 {
+        font-size: 60px;
+        line-height: 67px;
+    }
+    
+    
+    /* ..............................................
+    Home page mid section css for all devices
+    .............................................. */
+    
+    
+    .extra_curricular h1 svg {
+        left: -22px;
+    }
+    
+    
+    /* ==========================================================
+    Course detail page css start here
+    ========================================================== */
+    
+    .reviewSliderContentBlock{
+    padding: 35px 27px;
+    width: 100%;
+    }
+    
+    .reviewSliderContentBlock .popularHead .popular-courses-image img {
+        width: 90px;
+        max-width: 100%;
+        height: 90px;
+    }
+    
+    .reviewSliderContentBlock .popularHead .popular-courses-content {
+        width: 60%;
+        padding-left: 15px;
+        font-size: 23px;
+    }
+    
+    .reviewSliderContentBlock .popularHead .popular-courses-content span.age {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+    }
+    
+    .reviewSliderContentBlock p {
+     line-height: 29px;
+      min-height: 201px;
+    }
+    .searchFor .searchForBlock .searchForContent {
+      padding: 24px 24px;
+    }
+    
+    .searchForContent .searchForContentBtn p {
+        min-height: 84px;
+    }
+    
+    .searchForContent .searchForContentBtn .searchForHeading {
+        min-height: 52px;
+     }
+    
+    
+    .accordion-content .monthHead {
+       font-size: 16px;
+        line-height: 30px;
+     }
+    
+    section.coursesTopBanner .keyboardContent:last-child:after {
+        width: 100%;
+        right: 0%;
+    }
+    .keyboardContent p.title-key {
+        width: 100%;
+    }
+    
+    
+    
+    /* ==========================================================
+    art and craft page css start here
+    ========================================================== */
+    
+    
+    .artcraft-gallery ul li {
+        width: 156px;
+        height: 156px;
+    }
+    
+    
+    
+    /* ==========================================================
+    Genral landing page css start here
+    ========================================================== */
+    
+    .explore-block h1,
+    .explore-block h1 span,
+    .book-a-free .book-a-free-content h1,
+    .chdevelop-banner-content h1 span,
+    .chdevelop-banner-content h1{
+        font-size: 60px;
+        line-height: 67px;    
+    }
+    
+    .why-choose .why-choose-cont h2,
+    .every-courses h2{
+        font-size: 45px;
+        line-height: 62px;
+    }
+    
+    
+    }
+    
+    
+    
+    @media (max-width:1199px){
+    
+    
+    h1 {
+        font-size: 58px;
+        line-height: 62px;
+    }
+    
+    h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    
+    p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    
+    /* ..............................................
+    Header section css for all devices
+    .............................................. */
+    
+    nav ul.nav-list .pulse-button a.btn {
+        line-height: 52px;
+        padding: 0px 30px;
+    }
+    
+    .head-right button.btn.dashboard_login {
+        font-size: 14px;
+    }
+    
+    nav ul.nav-list li a {
+        font-size: 14px !important;
+    }
+    
+    
+    /* ..............................................
+    Home page mid section css for all devices
+    .............................................. */
+    
+    
+    
+    .title-main h2 {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    
+    .bookSessionCenter .btn-default {
+        font-size: 18px;
+        min-width: 259px;
+        line-height: 60px;
+    }
+    
+    
+    .popular-courses:before {
+        top: -140px;
+    }
+    
+    
+    
+    .popular-courses-block {
+        border-radius: 40.1042px;
+        padding: 24px 25px;
+    }
+    
+    .popularHead .popular-courses-image {
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+    }
+    
+    .popularHead .popular-courses-image img {
+        max-width: 44px;
+        width: 100%;
+    }
+    
+    .popularHead .popular-courses-content h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .popular-courses-block .popular-content-main p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    
+    .popular-courses-wrapper a.btn-primary {
+        line-height: 56.15px;
+            width: 100%;
+    }
+    
+    .popular-courses-block .popular-content-main {
+        min-height: 110px;
+    }
+    
+    .popular-courses-wrapper a.btn-primary.viewAllCourses {
+        width: 242px;
+    }
+    
+    
+    .philosophy-wrapper {
+        width: 90%;
+    }
+    
+    section.our-philosophy {
+        padding: 40px 0 60px;
+    }
+    
+    
+    .watch-video-content {
+        min-height: 200px;
+        padding: 35px 26px;
+    }
+    
+    .watch-block p {
+        padding-top: 0px;
+        font-size: 17px;
+        line-height: 29px;
+    }
+    
+    
+    .watch-video-content button.watch-video-btn {
+       font-size: 14px;
+         width: 100%;
+        line-height: 50px;
+     
+    }
+    
+    
+    .reviews-parents .reviewsSlider{
+    padding: 43px 52px 31px;
+    max-width: 674px;
+    }
+    
+    .popularHead .popular-courses-content {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    
+    
+    .popularHead .popular-courses-content span.age {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .reviews-parents .reviewsSlider .popularHead .slider-courses-image img {
+        width: 63px;
+    }
+    
+    .review-block p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .reviews-parents .reviewsSlider span.pagingInfo {
+        font-size: 18px;
+    }
+    
+    
+    .refer-earn-content {
+        max-width: 598px;
+        padding: 70px 40px;
+    }
+    
+    section.refer-earn {
+        padding: 100px 0px;
+    }
+    
+    
+    .refer-earn-content a.btn-red.shareNow {
+        min-width: 212px;
+        line-height: 51.54px;
+        font-size: 18px;
+    }
+    
+    
+    /* ===========================================
+    About us page css start here
+    =========================================== */
+    
+    .when-we-together {
+    padding: 100px 50px;
+    }
+    
+    
+    
+    .teachers-blocks .teachers-says {
+        padding:15px 15px;
+    }
+    
+    .teachers-name {
+        padding-left: 15px;
+    }
+    
+    .teachers-says .teachers-head .teachers-img img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .teachers-name h4 {
+        font-size: 16px;
+    }
+    
+    
+    .teachers-name span.info-teach {
+        font-size: 13px;
+        display: block;
+        line-height: normal;
+    }
+    
+    .join-book a.btn.book-a-demo {
+        padding: 0px 33px;
+    }
+    
+    
+    /* ==========================================================
+    Courses page css start here
+    ========================================================== */       
+    
+    
+    .coursesBlock .coursesContent {
+        padding: 17px 20px;
+    }
+    
+    .coursesName h4 {
+        line-height: 25px;
+    }
+    
+    .coursesContent .courseDetailBlock p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .priceBlk span.priceBlkSpan {
+        font-size: 30px;
+        line-height: 25px;
+        width: 50%;
+    }
+    .coursesBlock .imgBlk img {
+        border-radius: 55px 55px 0 0;
+    }
+    
+    
+    
+    /* ==========================================================
+    Course detail page css start here
+    ========================================================== */
+    
+    .aboutUs.courses {
+        padding: 50px 20px;
+    }
+    
+    .learningMap p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .curriculumContent button.accordion {
+        font-size: 18px;
+        line-height: 56px;
+    }
+    
+    
+    .accordion-content {
+        padding: 0 20px;
+    }
+    .accordion-content .monthHead {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    .accordion-content p {
+        line-height: 26px;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    
+    .curriculumContent button.accordion:after {
+        font-size: 18px;
+    
+    }
+    
+    .choosePackContent {
+        padding: 20px 20px 40px;
+    }
+    
+    .cooperationTag {
+        line-height: 35px;
+        min-width: 212px;
+        font-size: 16px;
+    }
+    
+    .choosePackContent a.btn.enroll {
+        line-height: 38px;
+        letter-spacing: 0.05em;
+    }
+    
+    .reviews .slick-list {
+        padding: 0 0% 10px 0;
+    }
+    
+    .willReviewBlock .willReviewCont {
+        width: 80%;
+        padding-left: 20px;
+    }
+    
+    .reviewSliderContentBlock .popularHead .popular-courses-image img {
+        width: 70px;
+        height: 70px;
+    }
+    .reviewSliderContentBlock {
+        padding: 28px 18px;
+    }
+    
+    .reviewSliderContentBlock .popularHead .popular-courses-content {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .reviewFromParents {
+        padding: 40px 0;
+    }
+    
+    
+    /* ========================================
+    community page css start here
+     ======================================== */
+    
+    
+    .community-banner-wrapper a.addPostBtn.btn {
+        line-height: normal;
+    }
+    
+    .community-banner-wrapper {
+        padding: 50px 50px;
+    }
+    
+    /* ========================================
+    Blog Page css start here */
+    
+    .blog-post-wrap .blog-content {
+        padding: 18px 20px;
+    }
+    
+    .blog-list .blog-content .content-heading {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    
+    .blog-post-wrap .blog-content p {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    
+    
+    .blog-sidebar .blog-content .blog-date {
+        font-size: 13px;
+        line-height: normal;
+    }
+    
+    .blog-read-more a {
+        font-size: 15px;
+        line-height: 34px;
+        padding: 5px 30px;
+    }
+    
+    .half-width-image .col-span-6 {
+        width: 100%;
+    }
+    
+    .blog-sidebar .featured-blog-list .col-span-6 {
+        width: 100%;
+    }
+    
+    .blog-sidebar .blog-img-block {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    .blog-sidebar .blog-img-block .img-tag {
+        left: 16px;
+        right: inherit;
+        margin: 0 auto;
+        width: auto;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .faqs .faq-accordion ul li {
+        padding: 30px 20px;
+    }
+    
+    .faqs .faq-accordion ul li a {
+        font-size: 16px;
+        line-height: 33px;
+        margin-bottom: 10px;
+        position: relative;
+        padding-right: 35px;
+    }
+    
+    
+    .faqs .faq-accordion ul li a i {
+        width: 30px;
+        height: 30px;
+        right: 0px;
+    
+    }
+    
+    
+    /* ==========================================================
+    art and craft page css start here
+    ========================================================== */
+    
+    
+    .artcraft-gallery ul li {
+        width: 127px;
+        height: 127px;
+        border-radius: 21px;
+    }
+    
+    .count-craft {
+        padding-top: 48px;
+    }
+    
+    .become-doctor .become-title h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
+    .become-doctor .become-title p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 69%;
+    }
+    
+    .become-doctor::before {
+        top: 20%;
+    }
+    
+    .become-doctor .become-doctor-box .content-block p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .become-doctor .become-doctor-box .icon-img {
+        width: 27%;
+        padding-right: 20px;
+    }
+    
+    .artcraft-courses h2 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    
+    
+    .artcraft-courses-content {
+        padding: 39px 41px;
+    }
+    
+    .artcraft-courses-content a.btn.book-free {
+        margin-top: 0px;
+    }
+    
+    .artcraft-courses-content ul li {
+        margin-bottom: 31px;
+    }
+    
+    .faqs h2.text-black,
+    .why-choose .why-choose-cont h2,
+    .artworks-gallery h2 {
+        font-size: 40px;
+        line-height: 55px;
+    
+    }
+    
+    .faqs .faq-accordion ul li .faq-discriptionshow p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .faqs .faq-accordion ul li.active {
+        border-radius: 40px;
+    }
+    
+    
+    /* ==========================================================
+    refer-and-win page css start here
+    ========================================================== */
+    
+    
+    .refer-win-block ul.customTab li a {
+        font-size: 15px;
+        line-height: 41px;
+    }
+    
+    
+    .win-block .col-span-3 {
+        width: 50%;
+        margin-bottom: 26px;
+    }
+    
+    
+    
+    /* ==========================================================
+    Genral landing page css start here
+    ========================================================== */
+    
+    .explore-block h1,
+    .explore-block h1 span,
+    .book-a-free .book-a-free-content h1,
+    .chdevelop-banner-content h1 span,
+    .chdevelop-banner-content h1{
+        font-size: 58px;
+        line-height: 62px;
+    }
+    
+    .why-choose .why-choose-cont h2,
+    .every-courses h2{
+         font-size: 40px;
+        line-height: 50px;
+    }
+    
+    .chd-banner-gallery-wrapper {
+        padding-left: 0px;
+    }
+    
+    
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-gallery1 img {
+        max-width: 155px;
+    }
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-gallery3 {
+        top: 161px;
+        left: 129px;
+    }
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-gallery3 img {
+        max-width: 209px;
+    }
+    
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-gallery4 {
+        top: 361px;
+        left: 21px;
+    }
+    
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-gallery4 img {
+        width: 100%;
+        max-width: 128px;
+    }
+    
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-courses {
+        top: 17px;
+    }
+    
+    
+    .book-a-free form.book-form {
+        padding: 40px 57px;
+    }
+    
+    
+    .book-a-free input.form-control {
+        height: 59px;
+    }
+    
+    .book-a-free .mobile-block .code-block img {
+        margin-right: 10px;
+        width: 34px;
+    }
+    
+    .book-a-free .mobile-block .code-block {
+        padding: 10px 14px;
+        font-size: 15px;
+    }
+    
+    .book-a-free .mobile-block .input-field {
+        width: 70%;
+    }
+    
+    .book-a-free form.book-form .continue-btn a.send-otp {
+        font-size: 20px;
+        line-height: 65px;
+        width: 255px;
+        height: 65px;
+    }
+    
+    .book-a-free form.book-form h3 {
+        font-size: 19px;
+    }
+    
+    .programs-wrapper .programs-blocks {
+        padding: 0 17px;
+    }
+    
+    
+    .programs-wrapper .programs-blocks .programs-cont h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .chdevelop-info .ch-info-wrapper h3 {
+        font-size: 42px;
+        line-height: 43px;
+    }
+    
+    .chdevelop-info .ch-info-wrapper p {
+        font-size: 16px;
+    
+    }
+    
+    
+    .every-courses .every-courses-wrapper p,
+    .explore-block p,
+    .book-a-free .book-a-free-content p,
+    .chdevelop-banner-content p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    
+    .every-courses {
+        padding: 70px 0 30px;
+    }
+    
+    
+    
+    /* ==========================================================
+    streaming-talent page css start here
+    ========================================================== */
+    
+    .streaming-ban-content {
+        padding-left: 30px;
+    }
+    
+    .streaming-banner .streaming-ban-content h1 svg {
+        top: -71px;
+        left: -45px;
+    }
+    
+    .streaming-ban-content a.btn.entry-btn {
+        font-size: 21px;
+        line-height: 45px;
+    }
+    
+    .streaming-ban-content span.music-img {
+       right: 0px;
+        width: 100%;
+        max-width: 221px;
+    }
+    
+    .streaming-ban-content .last-date p {
+        font-size: 19px;
+     
+    }
+    
+    .about-event p {
+        max-width: 668px;
+        margin: 0 auto;
+    }
+    
+    .Performers-block .awards-block {
+        width: 50%;
+        text-align: center;
+        padding: 0 0px;
+    }
+    
+    section.streaming-talent .book-a-free form.book-form {
+        padding: 42px 23px;
+    }
+    
+    section.streaming-talent .book-a-free form.book-form .sign-in-block {
+        padding: 0px;
+    }
+    section.streaming-talent .book-a-free {
+        padding: 100px 0 0;
+    }
+    
+    
+    
+    
+    /* ===========================================
+    student-policy us page css start here
+    =========================================== */
+    
+    
+    .table-wrapper {
+        overflow: auto;
+    }
+    
+    section.cms-page.student-policy table thead th {
+        font-size: 13px;
+        padding: 11px 16px;
+    }
+    
+    section.cms-page.student-policy table tr td {
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media (max-width:991px){
+    
+    
+    h1 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    
+    
+    /* ..............................................
+    Header section css for all devices
+    .............................................. */
+    
+    nav ul.nav-list .pulse-button a.btn {
+        line-height: 42px;
+        padding: 0px 23px;
+        font-size: 15px;
+    }
+    
+    nav ul.nav-list li.submenu a {
+        font-size: 15px;
+    }
+    
+    nav ul.nav-list li.submenu>a:before {
+        font-size: 28px;
+        top: -4px;
+    }
+    
+    .navigation a.login {
+        font-size: 15px;
+    }
+    
+    .navigation a.btn-default {
+        font-size: 15px;
+        min-width: 139px;
+        padding: 0px;
+        line-height: 42px;
+        margin-left: 10px;
+    }
+    
+    
+    /* ..............................................
+    Home page mid section css for all devices
+    .............................................. */
+    
+    
+    .popular-courses:before {
+        top: -109px;
+    }
+    
+    
+    .extra_curricular {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    
+    
+    .bookSessionCenter .btn-default {
+        font-size: 16px;
+        min-width: 197px;
+        line-height: 46px;
+    }
+    
+    .popular-courses {
+        padding: 45px 0px;
+    }
+    
+    
+    .popular-courses-wrapper .col-span-4 {
+        margin-bottom: 60px;
+        width: 49.333333%;
+    }
+    
+    
+    .philosophy-wrapper {
+        width: 100%;
+    }
+    
+    .watch-video-content {
+        padding: 21px 15px;
+            min-height: 139px;
+    }
+    
+    .watch-block p {
+        font-size: 14px;
+        line-height: 26px;
+        min-height: 125px;
+    }
+    
+    
+    
+    /* ..............................................
+    Footer section css for all devices
+    .............................................. */
+    
+    
+    footer ul.address li {
+        width: 100%;
+    }
+    
+    .subscribeEmail .social-footer a {
+        margin-right: 9px;
+    }
+    
+    .subscribeEmail ul li {
+        margin-bottom: 6px;
+    }
+    
+    .subscribeEmail ul li a {
+        font-size: 13px;
+    }
+    
+    footer ul.address li .addressContent p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    
+    .subscribeEmail .signUpHeading {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    
+    /* ===========================================
+    About us page css start here
+    =========================================== */
+    
+    .when-we-together {
+        padding: 50px 20px;
+    }
+    
+    .when-block-content {
+        width: 88%;
+        padding-left: 20px;
+    }
+    
+    .join-explore ul li.rating {
+        width: 370px;
+        height: 370px;
+            left: -53px;
+    }
+    
+    
+    .join-explore ul li.learners {
+        width: 340px;
+        height: 340px;
+    }
+    
+    .join-explore ul li.countries {
+        left: -90px;
+    }
+    
+    .join-explore ul li.conducted {
+        left: 170px;
+    }
+    
+    .join-book a.btn.book-a-demo {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+    
+    .founders-block .founders-info h3 {
+        font-size: 22px;
+    }
+    
+    .founders-block .founders-info p {
+        font-size: 16px;
+    }
+    
+    
+    /* ==========================================================
+    Courses page css start here
+    ========================================================== */    
+    
+    .courses-tags ul li a {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    
+    .priceBlk span.priceBlkSpan {
+        font-size: 22px;
+        line-height: 27px;
+        width: 69%;
+    }
+    .priceBlk span {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    
+    
+    .coursesContent ul.class_desc li span:last-child {
+        font-size: 12px;
+        line-height: 20px;
+        width: 57%;
+    }
+    
+    .coursesContent ul.class_desc li span:first-child {
+        font-size: 12px;
+        line-height: 25px;
+        width: 43%;
+    }
+    
+    ul.course_buttons a.btn.large.blue {
+        font-size: 16px;
+        line-height: 38px;
+        padding: 4px 14px;
+    }
+    
+    
+    /* ==========================================================
+    Course detail page css start here
+    ========================================================== */
+    
+    .keyContent-block h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    
+    
+    .keyboardContent p {
+    margin: 12px 0;
+    }
+    
+    
+    .individual_packages {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    
+    
+    .choosePackContent {
+        padding: 20px 20px 40px;
+        width: 100%;
+    }
+    
+    .reviewSliderBlock ul li {
+        padding: 28px 15px;
+        width: 100%;
+    }
+    
+    .reviewSliderContentBlock p {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    
+    .reviewFromParents .topReview li {
+        font-size: 24px;
+        line-height: 50px;
+    }
+    
+    
+    section.faqs .faq-accordion ul li {
+        padding: 40px 33px;
+    }
+    
+    
+    section.faqs .faq-accordion ul li a {
+        font-size: 17px;
+        line-height: 33px;
+       margin-bottom: 13px;
+        padding-right: 55px;
+    }
+    
+    section.faqs .faq-accordion ul li a i {
+        right: 0;
+    }
+    
+    .searchFor .searchForBlock .searchForContent {
+        padding: 15px;
+    }
+    
+    .searchForContent .searchForContentBtn p {
+        min-height: 84px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .searchForContent .searchForContentBtn a.viewDetails {
+        font-size: 15px;
+        line-height: 43px;
+        margin-top: 29px;
+        padding: 0;
+    }
+    
+    .searchFor .searchForBlock .searchForContent .searchForImg img {
+        width: 100%;
+    }
+    
+    
+    /* ..........................................
+        individual packages Popup css
+    .......................................... */
+    
+    
+    #individual-packages .chooseYourPack {
+        transform: translate(0%, 0%);
+        top: 0;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    
+    
+    #individual-packages h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    
+    /* ========================================
+    community page css start here
+     ======================================== */
+    
+    .community-banner-wrapper .videoImgBlk img {
+        border-radius: 50%;
+        width: 210px;
+        height: 210px;
+    }
+    
+    .community-banner-wrapper h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .community-banner-wrapper p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .courses-tags-main .courses-tags ul li .tagsBlk {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 10px 35px;
+    }
+    
+    .postLeft .postContent {
+        padding: 20px 15px;
+    }
+    
+    .postedComments button.btn.commentClickModle {
+        line-height: normal;
+    }
+    
+    .postLeft .postBlk .postHeader .postHedImg img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .postBlock .postRight h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .postBlock .postRight p {
+        line-height: 18px;
+        margin: 27px 0;
+        font-size: 12px;
+    }
+    
+    .postBlock .postRight a.btn.btn-default {
+        font-size: 15px;
+        line-height: 30px;
+        min-width: auto;
+    }
+    
+    .postContentArea .postBlock .postRight .inviteYourFriends {
+        padding: 37px 20px;
+    }
+    
+    .founders-block .founders-img{
+        width: 325px; height: 325px;
+    }
+    
+    /* ==========================================================
+    art and craft page css start here
+    ========================================================== */
+    
+    .artcraft-gallery ul li {
+        width: 96px;
+        height: 96px;
+        border-radius: 12px;
+    }
+    
+    .artcraft-gallery ul li.starting-box .starting-price span.text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .count-craft .count-craft-box .count-box h3 {
+       font-size: 30px;
+        line-height: 50px;
+    }
+    
+    .count-craft .count-craft-box .count-box span {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    
+    .artworks-gallery h2,
+    .why-choose .why-choose-cont h2,
+    .faqs h2.text-black,
+    .artcraft-courses h2,
+    .become-doctor .become-title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .become-doctor::before {
+        width: 214px;
+    }
+    
+    .become-doctor .become-doctor-box {
+        padding: 24px 29px;
+    }
+    
+    .become-doctor .become-doctor-box .icon-img {
+        width: 31%;
+        padding-right: 20px;
+    }
+    
+    .become-doctor .become-doctor-box .content-block {
+        width: 69%;
+    }
+    
+    .become-doctor .become-doctor-box .content-block p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    
+    
+    .become-doctor .last-para p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .artcraft-courses-content ul li h3 {
+       font-size: 17px;
+        line-height: 30px;
+    }
+    
+    .artcraft-courses-content ul li p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .artcraft-courses-content {
+        padding: 29px 33px;
+    }
+    
+    .artcraft-courses-content ul li {
+        margin-bottom: 23px;
+    }
+    
+    .artworks-gallery .artworks-list .artworks-wrapper {
+        width: 33.333%;
+    }
+    
+    .why-choose-cont p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    .why-choose-block .why-block {
+        padding: 15px 16px;
+    }
+    
+    .why-choose-block .why-block p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    
+    
+    
+    
+    /* ==========================================================
+    Genral landing page css start here
+    ========================================================== */
+    
+    .explore-block h1,
+    .explore-block h1 span,
+    .book-a-free .book-a-free-content h1,
+    .chdevelop-banner-content h1 span,
+    .chdevelop-banner-content h1{
+        font-size: 58px;
+        line-height: 62px;
+    }
+    
+    .why-choose .why-choose-cont h2,
+    .every-courses h2{
+         font-size: 40px;
+        line-height: 50px;
+    }
+    
+    
+    
+    /* ==========================================================
+    Genral landing page css start here
+    ========================================================== */
+    
+    .explore-block h1,
+    .explore-block h1 span,
+    .book-a-free .book-a-free-content h1,
+    .chdevelop-banner-content h1 span,
+    .chdevelop-banner-content h1{
+        font-size: 48px;
+        line-height: 52px;
+    }
+    
+    .why-choose .why-choose-cont h2,
+    .every-courses h2{
+    font-size: 30px;
+        line-height: 40px;
+    }
+    
+    
+    
+    /* ==========================================================
+    streaming-talent page css start here
+    ========================================================== */
+    
+    .streaming-ban-img {
+        max-width: 220px;
+    }
+    
+    
+    
+    .streaming-banner .streaming-ban-wrapper:after {
+        height: 32%;
+        top: 12%;
+    }
+    
+    .streaming-banner .streaming-ban-content h1 svg {
+        top: -35px;
+        left: -15px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .streaming-banner .streaming-ban-content h3 {
+        font-size: 17px;
+        line-height: 30px;
+        margin-bottom: 22px;
+        margin-top: 10px;
+    }
+    
+    .streaming-ban-content {
+        padding-left: 8px;
+    }
+    
+    .streaming-ban-content a.btn.entry-btn {
+        font-size: 17px;
+        line-height: 36px;
+    }
+    
+    .streaming-ban-content span.music-img {
+        right: -38px;
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .streaming-ban-content .last-date p {
+        font-size: 15px;
+    }
+    
+    .streaming-ban-content .last-date span.icon img {
+        margin-right: 3px;
+    }
+    
+    .about-event:before {
+        width: 134px;
+        height: 232px;
+    }
+    
+    .about-event p {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    
+    .guidelines .guidelines-title h3 {
+        font-size: 30px;
+        line-height: 52px;
+    }
+    
+    .guidelines .guidelines-title span.icon {
+        width: 101px;
+    }
+    
+    .guidelines ul {
+        padding: 0 10px;
+    }
+    
+    .Categories-section .Categories-block button.accordion {
+        font-size: 19px;
+    }
+    
+    .Categories-section .Categories-block button.accordion span.icon img {
+        max-width: 64px;
+    }
+    
+    .Categories-section .Categories-block .accordion-content a.btn.submit {
+        font-size: 21.0818px;
+        line-height: 36px;
+        min-width: 208px;
+        margin-bottom: 45px;
+    }
+    
+    
+    .Performers-block .awards-block p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    
+    section.streaming-talent .book-a-free form.book-form {
+        padding: 42px 18px;
+    }
+    
+    .book-a-free-content .submit-girl a.arrow-btn img {
+        max-width: 97px;
+    }
+    
+    .book-a-free-content .submit-girl img {
+        max-width: 197px;
+    }
+    
+    
+    section.streaming-talent .book-a-free form.book-form h3 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    
+    section.streaming-talent .book-a-free form.book-form  .code-block {
+        padding: 5px 7px;
+        height: auto;
+    }
+    
+    section.streaming-talent .book-a-free .mobile-block .code-block .select2-container--default {
+        padding-bottom: 0px !important;
+        width: 100% !important;
+    }
+    
+    section.streaming-talent .book-a-free .mobile-block .code-block .select2-container .select2-selection--single {
+        font-size: 12px;
+    }
+    
+    section.streaming-talent .book-a-free form.book-form .continue-btn a.send-otp {
+        font-size: 16px;
+        line-height: 57px;
+        width: 255px;
+        height: 57px;
+    }
+    
+    .Performers-block .awards-block span.img img {
+        max-width: 161px;
+    }
+    
+    .book-a-free-content .submit-girl img {
+        max-width: 141px;
+        height: auto;
+    }
+    
+    .after-login-block >.book-a-free-content .streaming-ban-content .streaming_count_main span h2 {
+        color: #96296E;
+        font-size: 38px;
+        line-height: 85px;
+        width: 87.54px;
+        height: 87.54px;
+        border-radius: 21px;
+    }
+    .blog-deatil-post img {
+        width: auto!important;
+        height: auto!important;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    }
+    
+    
+    
+    
+    
+    @media (max-width:767px){
+    
+    body {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    html {
+        background-size: auto;
+    }
+    
+    
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    line-height: 35px;
+    }
+    
+    
+    p{
+    font-size: 14px;
+    line-height: 25px;
+           font-family: 'Avenir LT Pro';
+    }
+    
+    
+    /* ..............................................
+    Header section css for all devices
+    .............................................. */
+    
+    
+    .nav-mobile {
+        width: 35px;
+        position: relative;
+        height: 24px;
+    }
+    
+    .navigation .row-flex {
+        position: relative;
+    }
+    
+    .navigation .head-right {
+        width: auto;
+        margin-left: auto;
+        position: absolute;
+        right: 0;
+    }
+    
+    .navigation .logo {
+        padding: 0px;
+        width: auto;
+        position: absolute;
+        left: 50%;
+        right: auto;
+        transform: translate(-50%, 0%);
+    }
+    .navigation .logo a img {
+        max-width: 150px;
+    }
+    
+    .navigation a.btn-default{
+        display: none;
+    }
+    
+    
+    a.header_login_link{
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #1A4778;
+     font-family: 'Avenir LT Pro 55 Roman';
+    }
+    
+    .nav-mobile a#navbar-toggle {
+    cursor: pointer;
+    }
+    
+    #navbar-toggle.active span {
+        background-color: transparent;
+    }
+    
+    #navbar-toggle span {
+        width: 80%;
+    }
+    
+    #navbar-toggle span, 
+    #navbar-toggle span:before, 
+    #navbar-toggle span:after {
+        cursor: pointer;
+        height: 2.2px;
+        width: 100%;
+        background: #1a4778;
+        position: absolute;
+        display: block;
+        content: "";
+        transition: all 300ms ease-in-out;
+    }
+    
+    #navbar-toggle.active span:before {
+        transform: rotate(45deg);
+    }
+    
+    #navbar-toggle.active span:after {
+        transform: rotate(-45deg);
+            bottom: -10px;
+        width: 81%;
+    }
+    
+    #navbar-toggle span:before {
+        top: 10px;
+        width: 76%;
+    }
+    
+    #navbar-toggle span:after {
+        bottom: -21px;
+        width:100%;
+    }
+    
+    /* .main-navigation nav {
+        display: none;
+    } */
+    
+    
+    section.navigation {
+        padding: 20px 0;
+    }
+    
+    .main-navigation nav ul.nav-list{
+        position: absolute;
+        display: none;
+        box-sizing: border-box;
+        padding: 10px 0px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 25px 25px 55px rgba(0, 0, 0, 0.02);
+        border-radius: 35px;
+            min-width: 250px;
+                z-index: 10;
+    }
+    
+    .main-navigation nav ul.nav-list ul.navbar-dropdown {
+        border: none;
+        position: relative;
+        box-shadow: none;
+        padding: 0px;
+        border-top: 1px solid rgba(0, 0, 0, 0.15);
+            border-radius: 0px;
+        margin-top: 10px;
+    }
+    
+    .main-navigation nav ul.nav-list li.hide {
+        display: none;
+    }
+    
+    nav ul.nav-list li.submenu ul.navbar-dropdown li {
+        padding: 0 0px;
+        margin: 0px;
+    }
+    
+    /* ..............................................
+    Home page mid section css for all devices
+    .............................................. */
+    
+    .extra_curricular .row-flex {
+        flex-direction: column-reverse;
+    }
+    
+    .extra_curricular:before {
+        background-size: 100%;
+    }
+    
+    
+    .popular-courses-wrapper .col-span-4 {
+        margin-bottom: 60px;
+        width: 100%;
+    }
+    
+    .extra_curricular h1 svg {
+    left: inherit;
+        top: 0;
+        right: 0;
+        width: 79px;
+        transform: rotate(80deg);
+    }
+    
+    .extra_curricular h1 br{
+        display: none;
+    }
+    
+    .extra_curricular .col-span-6{
+        display: block;
+    }
+    
+    
+    .extra_curricular h1 {
+        position: relative;
+        margin-bottom: 37px;
+        font-size: 25px;
+        line-height: 35px;
+        padding-top: 60px;
+    }
+    
+    
+    .popular-courses-block .popular-content-main p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .popular-courses-block .popular-content-main {
+        min-height: 76px;
+    }
+    
+    
+    .our-philosophy-block p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    .watch-block p {
+        min-height: auto;
+        margin-bottom: 21px;
+    }
+    
+    .student-videos .watch-block {
+        margin-bottom: 30px;
+    }
+    
+    section.reviews-parents {
+        padding-top: 0px;
+        padding-bottom: 80px;
+        position: relative;
+    }
+    
+    
+    .reviews-parents::before{
+        display: none;
+    }
+    
+    .reviews-parents .reviewsSlider {
+    padding: 24px 24px 24px;
+        background: rgba(255, 255, 255, 0.6);
+        position: relative;
+    }
+    
+    .reviews-parents::after {
+        background-position: 100% 100%;
+        background-size: 78%;
+    }
+    
+    .reviewsSlider .slideshow {
+        position: static;
+    }
+    
+    
+    .reviewsSlider .slideshow button.slick-next,
+    .reviewsSlider .slideshow button.slick-prev {
+        top: inherit;
+        bottom: -49px;
+        right: inherit;
+    }
+    
+    .reviewsSlider .slideshow button.slick-next {
+        left: 66px;
+    }
+    
+    section.refer-earn {
+        padding: 60px 0px;
+    }
+    
+    
+    .refer-earn::after,
+    .refer-earn::before {
+        width: 118px;
+        height: 17px;
+        top: 4%;
+    }
+    
+    
+    .refer-earn::after{
+            top:inherit;
+            bottom: 4%;
+    }
+    
+    .refer-earn-content {
+        padding: 34px 20px;
+    }
+    
+    .refer-earn-content .title-main h2 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    
+    .refer-earn-content .title-main h2:after {
+        bottom: 0px;
+    }
+    
+    
+    section.sticky_bottom_button {
+          background-color: #cee6ff;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        z-index: 10;
+            padding-bottom: 10px;
+    }
+    
+    section.sticky_bottom_button a.viewDetails {
+    color: #fff;
+        padding: 0px;
+        margin: 21px 0 14px;
+        min-width: 260px
+    }
+    
+    .sticky_bottom_button p.pb-none {
+        color: #0E2A49;
+        font-weight: 600;
+    }
+    
+    
+    
+    /* ..............................................
+    Footer section css for all devices
+    .............................................. */
+    
+    footer {
+        padding:50px 0;
+    }
+    
+    
+    footer img.footer-logo {
+        width: 145px;
+        margin-bottom: 13px;
+    }
+    
+    footer .dataHide {
+        display: none;
+    }
+    
+    footer .pt-47 {
+        padding-top: 21px;
+    }
+    
+    footer .col-span-5 .col-span-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    
+    .subscribeEmail .signUpHeading {
+        margin-top: 28px;
+    }
+    
+    footer ul.address li .addressIcon {
+        width: 43px;
+    }
+    
+    footer .subscribeEmail {
+        margin-top: 14px;
+    }
+    
+    .email-mobile {
+        padding-top: 28px;
+        padding-bottom: 16px;
+    }
+    
+    .email-mobile h3 {
+        text-transform: uppercase;
+        color: #4084CE;
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 12px;
+    }
+    
+    
+    .email-mobile .signupForm {
+        position: relative;
+        background: rgba(165, 208, 255, 0.13);
+        box-shadow: 15px 15px 55px rgb(0 0 0 / 5%);
+        border-radius: 25px;
+        padding: 15px 20px;
+    }
+    
+    
+    .email-mobile .signupForm input[type="email"] {
+        border: none;
+        border-bottom: 1px solid #A0A0A0;
+        background: none;
+        color: #4084CE;
+        font-size: 14px;
+            font-family: 'Avenir LT Pro';
+            font-weight: 800;
+                padding-right: 26px;
+    }
+    
+    .email-mobile .signupForm input[type="email"]::-webkit-input-placeholder {    
+        color: #4084CE;
+    }
+    
+    .email-mobile .signupForm input[type="email"]:-ms-input-placeholder { 
+        color: #4084CE;
+    }
+    
+    .email-mobile .signupForm input[type="email"]::placeholder {
+        color: #4084CE;
+    }
+    
+    .email-mobile .signupForm button {
+        position: absolute;
+        right: 20px;
+        top: 23px;
+        background: none;
+        width: 21px;
+    }
+    
+    
+    
+    
+    /* ===========================================
+    About us page css start here
+    =========================================== */
+    
+    .about-page::before{
+        background: rgba(223, 238, 255, 0.8);
+            margin: 0 auto;
+        right: 0;
+    }
+    
+    .about-head a.learnmore {
+        font-size: 10px;
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+    
+    .about-head h1:before {
+        width: 183px;
+        height: 14px;
+    
+    }
+    
+    
+    section.who-we-are {
+        padding-top: 41px;
+        padding-bottom: 41px;
+    }
+    
+    .when-we-together {
+        padding: 35px 20px;
+    }
+    
+    .when-we-left {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 45px;
+    }
+    
+    .when-block-icon img {
+        width: 42px;
+    }
+    
+    
+    .when-block-content h3 {
+        font-size: 14px;
+    }
+    
+    .teachers-blocks .teachers-says {
+        padding: 20px 20px;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    
+    .teachers-blocks .teachers-says .teachers-info {
+        text-align: center;
+        margin-top: 14px;
+    }
+    
+    
+    .teachers-says .teachers-head {
+        display: block;
+        align-items: center;
+    }
+    
+    section.future-education {
+        /* padding: 60px 10px 60px; */
+        padding: 0px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    
+    .join-us-explore h2::before {
+        width: 145px;
+        height: 13px;
+    }
+    
+    .join-us-explore h2 span strong {
+        display: block;
+    }
+    
+    .join-explore ul li h4 {
+        font-size: 28px;
+        line-height: 20px;
+    }
+    
+    .join-explore ul li p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    
+    .join-explore ul {
+        max-width: 320px;
+    }
+    
+    .join-explore ul li.rating {
+        width: 169px;
+        height: 169px;
+        margin-top: 55px;
+        left: -3px;
+    }
+    
+    .join-explore ul li.countries {
+        width: 124px;
+        height: 124px;
+        left: -14px;
+    }
+    
+    .join-explore ul li.conducted {
+        width: 144px;
+        height: 144px;
+        left: 16px;
+        margin-top: 16px;
+    }
+    
+    .join-explore ul li.learners {
+    width: 149px;
+        height: 149px;
+        margin-top: -57px;
+        left: -14px;
+    }
+    
+    .join-book {
+        display: block;
+        text-align: center;
+    }
+    
+    .join-book a.btn.book-a-demo {
+        padding: 0px 17px;
+        font-size: 14px;
+        margin: 14px auto 0;
+        line-height: 46.15px;
+    }
+    
+    section.our-founders h2 span {
+        display: block;
+    }
+    
+    
+    section.our-founders h2 {
+        margin-bottom: 0px;
+    }
+    .investors-blocks {
+        padding: 40px 10px;
+    }
+    
+    .founders-block .founders-img img {
+        width: 170px;
+        height: 170px;
+    }
+    
+    .founders-block .founders-img {
+        width: 239px;
+        height: 239px;
+    }
+    
+    .founders-block .founders-info h3 {
+        font-size: 20px;
+    }
+    
+    .founders-block .founders-info p {
+        font-size: 14px;
+    }
+    
+    
+    section.our-founders::before{
+        display: none;
+    }
+    
+    section.our-founders {
+        padding-bottom: 0px;
+        margin-bottom: 60px;
+        position: relative;
+    }
+    section.our-founders .founders-block {
+        margin-top: 40px;
+    }
+    .investors-blocks ul.investors-list li {
+        width: 100%;    margin-bottom: 25px;
+    }
+    section.our-investors h2{margin-bottom: 0;font-size: 16px;}
+    
+    
+    
+    
+    section.our-investors{padding: 45px 0 0;}
+    
+    
+    .investors-info h4 {
+        font-size: 16px;
+        line-height: 33px;
+    }
+    
+    
+    .investors-blocks ul.investors-list li .investors-img img {
+        width: 118px;
+        height: 118px;
+    }
+    
+    .investors-blocks ul.investors-list li {
+        padding: 14px 0 10px;
+    }
+    
+    .investors-info h6 {
+        font-size: 15px;
+        line-height: 33px;
+    }
+    
+    
+    
+    .teachers-says .teachers-head .teachers-img img{margin: 0 auto;}
+    .teachers-blocks .teachers-says .teachers-info p{text-align: center;line-height: 22px;font-size: 12px;}
+    .teachers-name span.info-teach{font-size: 12px;}
+    
+    
+    
+    .investors-blocks ul.investors-list {
+        display: block;
+        padding-bottom: 40px;
+    }
+    
+    section.our-investors::before{
+        display: none;
+    }
+    
+    .investors-blocks ul.investors-list .slick-next,
+    .investors-blocks ul.investors-list .slick-prev {
+        top: inherit;
+        bottom: 0px;
+    }
+    
+    
+    
+    .investors-blocks ul.investors-list .slick-prev {
+        left: 35%;
+    }
+    
+    .investors-blocks ul.investors-list .slick-next {
+        right: 35%;
+    }
+    
+    
+    .investors-blocks ul.investors-list .slick-prev:before{
+    background-image: url('../images/ab-left-arrow.svg');
+        content: "";
+        background-size: auto;
+        width: 40px;
+        height: 10px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    
+    .investors-blocks ul.investors-list .slick-next:before {
+    background-image: url('../images/ab-right-arrow.svg');
+    content: "";
+    background-size: auto;
+        width: 40px;
+        height: 10px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    
+    /* =============================================
+    SIGN UP POPUP CSS START HERE
+    =============================================== */
+    
+    .all-model.open {
+        padding-right: 17px;
+        padding-left: 17px;
+    }
+    
+    
+    .sign-with-login .register {
+        border-radius: 30px;
+    }
+    
+    
+    .register .col-container {
+        display: block;
+    }
+    
+    
+    .register .col-container .contentBlk.register_left_side_logo {
+        width: 100%;
+        border-radius: 30px 30px 0px 0px;
+    }
+    
+    .register .col-container .contentBlk {
+        width: 100%;
+        display: block;
+        border-radius: 0px 0px 30px 30px;
+    }
+    
+    .popup-left-logo h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 5px;
+    }
+    
+    .popup-left-logo img {
+        width: 100%;
+        max-width: 100px;
+    }
+    
+    .contentBlk h3 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .sign-in-block {
+        padding-top: 7px;
+        padding-bottom: 22px;
+        display: block;
+    }
+    
+    .contentBlk p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    .sign-in-block .wtsapp_check_box_width {
+        width: 100%;
+        align-items: center;
+    }
+    
+    .sign-in-block .wtsapp_check_box_width label {
+        font-size: 12px;
+        line-height: 20px;
+        width: 83%;
+        margin-right: auto;
+        margin-left: 7px;
+    }
+    
+    #teacher-account .login-block .send-otp-btn a.loginPass, #teacher-account .login-block .forgot-your-password .send-otp-btn a, #teacher-account .login-block .send-otp-btn a.send-otp, .contentBlk .custom_submit_button{
+    line-height: 55px;
+        width: 251px;
+        height: 55px;
+            font-size: 15px;
+    
+    }
+    
+    
+    .login_part .customSelectBox.display_country_mobile select,
+    .login_part .customSelectBox input[type="text"] {
+        font-size: 13px;
+    }
+    
+    
+    .enter-otp {
+        padding-top: 14px;
+        padding-bottom: 15px;
+    }
+    
+    .cta-step .resendOtp {
+        font-size: 12px;
+        line-height: 28px;
+    }
+    
+    
+    .enter-otp .form-group-regiser .passcode-wrapper input[type="number"] {
+        width: 60.94px;
+        height: 61px;
+        border-radius: 9.47155px;
+    }
+    
+    
+    
+    /* ==========================================================
+    Courses page css start here
+    ========================================================== */    
+    
+    .imgBlk .priceBlk{
+        display: inline-block;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    
+    .coursesBlock {
+        margin-top: 42px;
+    }
+    
+    .coursesBlock .coursesContent {
+        text-align: center;
+    }
+    
+    .coursesBlock .coursesContent .priceBlk {
+        display: none;
+    }
+    
+    .coursesContent ul.class_desc li {
+        display: block;
+    }
+    
+    .courses-tags ul li {
+    margin:7px 2px;
+    }
+    
+    .courses-tags ul li a {
+        font-size: 10px;
+        line-height: 33px;
+        padding: 0px 30px;
+    }
+    
+    .coursesContent ul.class_desc li span:first-child {
+        font-size: 16px;
+        line-height: 25px;
+        width: 100%;
+        display: block;
+    }
+    
+    .coursesContent ul.class_desc li span:last-child {
+        font-size: 16px;
+        line-height: 25px;
+        width: 100%;
+    }
+    
+    ul.course_buttons a.btn.large.blue {
+        padding: 4px 30px;
+    }
+    
+    
+    /* ==========================================================
+    Course detail page css start here
+    ========================================================== */
+    
+    .coursesTopBanner {
+        padding:41px 20px;
+    }
+    
+    .keyboardBlock {
+        flex-direction: column-reverse;
+    }
+    
+    .keyboardContent.col-span-5{
+        order: 1;
+    }
+    
+    .keyboardImgBlock {
+        max-width: 230px;
+        margin: 0 auto;
+    }
+    
+    .keyboardBlock .keyboardContent {
+        display: block;
+            text-align: center;
+        padding-top: 25px;
+    }
+    
+    .keyboardContent p.title-key {
+        width: 100%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .keyboardContent a.btn.btn-orange {
+        line-height: 40px;
+        font-size: 16px;
+        padding: 5px 40px;
+    }
+    
+    .keyContent-block .fixedOnMobile {
+        position: fixed;
+        background: #ffe0f4;
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+        font-size: 14px;
+        padding: 15px 10px;z-index: 5;
+    }
+    .keyContent-block .fixedOnMobile a.btn.btn-orange.book_demo {
+        width: 100%;
+    }
+    
+    .about-content {
+        display: block;
+        text-align: center;
+    }
+    .about-content p {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 18px;
+    }
+    
+    
+    h2.text-black {
+        margin-bottom: 23px;
+        text-align: center;
+    }
+    
+    .about-content p:last-child {
+        padding-left: 0px;
+    }
+    
+    .aboutUs.courses {
+        padding: 50px 20px;
+        margin-bottom: 53px;
+    }
+    
+    .tablsAction ul.customTab a {
+        font-size: 12px;
+        line-height: 30px;
+        min-width: 149px;
+        margin: 0 12px;
+    }
+    
+    .customTabContent ul.courseBox li {
+        width: 48%;
+        margin-right: 1%;
+        padding: 15px 0;
+        margin-left: 1%;
+        margin-bottom: 15px;
+    }
+    
+    .customTabContent ul.courseBox li .courseNumber {
+        font-size: 20px;
+        line-height: 19px;
+    }
+    
+    .customTabContent ul.courseBox li p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    
+    .willReviewBlock .willReviewImg {
+        width: 20%;
+        padding-right: 10px;
+    }
+    
+    .willReviewCont .willReviewHead {
+        font-size: 16px;
+        line-height: 33px;
+    }
+    
+    .courseDetails {
+        padding-bottom: 77px;
+    }
+    
+    .choosePackContent .groupCourse {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .cooperationTag {
+        font-size: 10px;
+        line-height: 23px;
+    }
+    .choosePackContent .sessionsBlock {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    
+    .choosePackContent .actualAmount span {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .choosePackContent .priceBlock {
+        font-size: 30px;
+        line-height: 40px;
+        color: #96296E;
+        font-weight: 600;
+    }
+    
+    .choosePackContent .perSession {
+        font-size: 12px;
+        line-height: 30px;
+        color: #6F6F6F;
+    }
+    
+    .choosePackContent a.btn.enroll {
+        font-size: 12px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    
+    
+    
+    .reviewSliderContentBlock .popularHead .popular-courses-content {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .reviewSliderContentBlock p {
+    font-size: 12px;
+        line-height: 18px;
+        color: #515151;
+        min-height: auto;
+    }
+    .reviewFromParents .topReview li {
+        font-size: 14px;
+        line-height: 50px;
+        color: #767676;
+    }
+    
+    section.faqs .faq-accordion ul li a {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    section.faqs .faq-accordion ul li .faq-discriptionshow p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    
+    
+    section.faqs .faq-accordion ul li a i {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .searchFor .searchForBlock .searchForContent {
+        margin-bottom: 47px;
+    }
+    
+    .searchForContentBtn {
+        padding-top: 20px;
+    }
+    
+    .searchForContent .searchForContentBtn .searchForHeading {
+        min-height: auto;
+        font-size: 16px;
+        line-height: 33px;
+    }
+    
+    .searchForContent .searchForContentBtn p {
+        min-height: auto;
+    }
+    
+    .learningMap p {
+        font-size: 14px;
+        line-height: 28px;
+        width: 90%;
+    }
+    
+    .curriculumContent {
+        margin-bottom: 29px;
+    }
+    
+    
+    /* ==================================================
+    Teacher Login Popup css start here
+    ================================================== */
+    
+    
+    #teacher-account .login-block .mobile-block .input-field {
+        width: 76%;
+    }
+    
+    #teacher-account .login-block .mobile-block .code-block {
+        padding-right: 8px;
+        font-size: 11px;
+    }
+    
+    
+    #teacher-account .login-block .mobile-block {
+        padding-left: 15px;
+    }
+    
+    #teacher-account .login-block .mobile-block .code-block img {
+        width: 20px;
+    }
+    .desktop-show{display: none}
+    .mobile-show{display: block}
+    .teacherImgBloxk, .meetTeacherContentBlock {
+        width: 100%;
+    }
+    .meetTeacherContentBlock {
+        padding-left: 0px;
+        padding-top: 60px;
+    }
+    .teacherContent p {
+        width: 100%;
+        text-align: center;
+    }
+    #individual-packages button.close {
+        right: 8px;
+        top: -8px;
+    }
+    
+    
+    
+    /* ========================================
+    community page css start here
+     ======================================== */
+    
+    .community-banner-wrapper {
+        padding: 40px 24px;
+    }
+    
+    .community-banner-wrapper {
+        text-align: center;
+    }
+    
+    .community-banner-wrapper h2 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+    
+    .community-banner-wrapper a.addPostBtn.btn {
+        line-height: normal;
+        font-size: 15px;
+        padding: 15px 20px;
+    }
+    
+    .bannerContBlk {
+        margin-bottom: 35px;
+    }
+    
+    section.courses-tags-main .courses-tags li {
+        margin: 7px 8px;
+    }
+    
+    
+    .postContentArea .postBlock {
+        flex-direction: column-reverse;
+    }
+    
+    .postContentArea .postBlock .postLeft {
+        width: 100%;
+        padding-right: 10px;
+    }
+    
+    .postContentArea .postBlock .postRight {
+        width: 100%;
+    }
+    
+    .postContentArea .postBlock .postRight .inviteYourFriends,
+    .postBlock .postRight .freeSessionBlk {
+        padding:33px 20px;
+        margin-bottom: 25px;
+    }
+    
+    
+    .postBlock .postLeft .postBlk {
+        border-radius: 30px;
+    }
+    .postLeft .postBlk .postHeader {
+        padding: 20px 18px;
+    }
+    .postLeft .postBlk .postHeader .postHedImg img {
+        width: 40px;
+        height: 40px;
+    }
+    .postLeft .postBlk .postHeader .postHedCont h3 {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    
+    .postLeft .postBlk .postHeader .postHedCont span {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    
+    .postContent .likeComment .commentBlk a.commentClick img,
+    .postContent .likeComment .likeBlk svg {
+        width: 20px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .postContent .likeComment .commentBlk a.commentClick,
+    .postContent .likeComment .likeBlk {
+        font-size: 12px;
+        line-height: 19px;
+        display: block;
+    }
+    
+    .postContent .likeComment .commentBlk a.commentClick {
+        display: block;
+    }
+    .postContent .likeComment .commentBlk a.commentClick img {
+        margin-bottom: 7px;
+    }
+    
+    .postLeft .postContent .likedByBlk span {
+        font-size: 12px;
+        line-height: 19px;
+    }
+    
+    .postedComments ul li .comments .head h4 {
+        font-size: 12px;
+    }
+    
+    .postModal textarea, .postLeft .postContent textarea.text_area {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    
+    
+    
+    /* ======================================================
+    community page add new popup css start here 
+    ===============================================*/
+    
+    
+    ul.addNewPostForm textarea, ul.addNewPostForm input[type=text] {
+        width: 100%;
+    }
+    
+    ul.addNewPostForm li .courses-tags ul li {
+        margin: 5px 6px;
+        width: 100%;
+    }
+    
+    ul.addNewPostForm li .courses-tags ul li .tagsBlk {
+        text-align: center;
+    }
+    
+    ul.addNewPostForm li button {
+        min-width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .addCommunityPost.enrollModal .enrollModalContent {
+        width: 97%;
+    }
+    
+    
+    .addCommunityPost.enrollModal .enrollModalContent h1 {
+        text-align: center;
+    }
+    
+    .postContent .likeComment .likeBlk a{
+        display: block;
+    }
+    
+    /* =============================================
+    CMS CSS START HERE
+    =============================================== */
+    
+    section.cms-page ol li, section.cms-page ul li {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    /* =============================================
+    Blog CSS START HERE
+    =============================================== */
+    
+    .blog-page .blog-tag ul li a {
+        font-size: 12px;
+        line-height: 29px;
+        padding: 4px 25px;
+    }
+    
+    .blog-page .blog-tag ul li {
+        margin: 15px 4px;
+    }
+    
+    
+    .blog-page .blog-tag ul {
+        width: 100%;
+    }
+    
+    
+    .blog-page .blog-tag ul li a.active {
+        box-shadow: 4px 4px 0px rgb(165 208 255 / 54%);
+    
+    }
+    
+    
+    .blog-detail-head .hangover_blog h1.blogHeading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .blog-detail-head .hangover_blog .dateSection .dateDay {
+    font-size: 30px;
+    }
+    .blog-comment #respond {
+        padding: 30px 20px;
+    }
+    
+    .blog-deatil-post .blog-deatil-content {
+        padding: 20px 20px;
+    }
+    
+    .blog-sidebar{
+        display: none;
+    }
+    
+    .fixed-bottom {
+        background-color: #cee6ff;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        z-index: 10;
+        left: 0;
+        padding: 11px 0;
+    }
+    
+    .fixed-bottom a.btn.btn-default.blue {
+        padding: 6px 30px;
+        font-size: 15px;
+    }
+    
+    .fixed-bottom p {
+        color: #0E2A49;
+        font-weight: 600;
+    }
+    
+    /* ==========================================================
+    art and craft page css start here
+    ========================================================== */
+    
+    .artcraft-page {
+        padding-top: 10px;
+    }
+    
+    .art-ba-content {
+        width: 100%;
+    }
+    
+    .artcraft-banner h1 {
+        text-align: center;
+    }
+    
+    .art-ba-content a.book-a-free {
+        line-height: 39px;
+        padding: 3px 36px;
+        font-size: 12px;
+        margin: 0 auto;
+        display: block;
+        width: 186px;
+    }
+    
+    .artcraft-banner p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .art-ba-content {
+        width: 100%;
+        margin-bottom: 28px;
+    }
+    
+    .artcraft-gallery {
+        width: 100%;
+        max-width: 290px;
+        float: none;
+        margin: 0 auto;
+    }
+    
+    .count-craft .count-craft-box .count-box h3 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    
+    .count-craft .count-craft-box .count-box h3 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    
+    .count-craft .count-craft-box .count-box span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .count-craft .count-craft-box {
+        height: 96.28px;
+        border-radius: 30px;
+    }
+    .count-craft .col-span-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .count-craft .row-flex {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .question-ans .question-block h2 {
+        font-size: 20px;
+        line-height: 25px;
+    margin-bottom: 55px;}
+    
+    .question-ans .question-block h2 br {
+        display: none;
+    }
+    
+    .question-block span.emotion-icon {
+        width: 70px;
+        height: 70px;
+        top: 49px;
+    }
+    
+    
+    .answer-block p {
+        font-size: 16px;
+            line-height: 22px;
+                width: 70%;
+        margin: 0 auto;
+    }
+    
+    .answer-block p br {
+        display: none;
+    }
+    
+    
+    .become-doctor .last-para p,
+    .become-doctor .become-title p, .become-doctor .become-title h2 {
+        font-size: 14px;
+        line-height: 22px;
+        width: 100%;
+        padding-right: 0px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    
+    .become-doctor::before{
+    display: none;
+    }
+    
+    .become-doctor .become-title .become-title-flex a.freedemo {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .become-doctor .become-doctor-box {
+        padding: 24px 29px;
+        display: block;
+        text-align: center;
+    }
+    
+    .become-doctor .become-doctor-box .icon-img {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .become-doctor .become-doctor-box .content-block {
+        width: 100%;
+    }
+    
+    .become-doctor .become-doctor-box .icon-img img {
+        width: 50px;    margin: 0px auto;
+    }
+    
+    .become-doctor .last-para {
+        width: 100%;
+    }
+    
+    .artcraft-courses h2 {
+        text-align: center;
+    }
+    
+    .artcraft-courses-content {
+        padding: 29px 33px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .artworks-gallery h2, .why-choose .why-choose-cont h2, .faqs h2.text-black, .artcraft-courses h2, .become-doctor .become-title h2{
+        font-size: 25px;
+        line-height: 35px;
+    
+    }
+    
+    .artworks-gallery .artworks-list .artworks-wrapper {
+        width: 50%;
+    }
+    
+    .artworks-gallery .artworks-list .artworks-wrapper h4 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+    
+    .why-choose-cont {
+        text-align: center;
+    }
+    
+    .why-choose-cont a.btn.btn-default.book-a-free {
+        line-height: 39px;
+        padding: 3px 36px;
+        font-size: 12px;
+        margin: 0 auto;
+        display: block;
+        width: 186px;
+    }
+    
+    .why-choose .why-choose-cont h2 {
+        margin-bottom: 14px;
+    }
+    
+    .why-choose-block .why-block {
+        padding: 19px 24px;
+        height: auto;
+    }
+    
+    .why-choose-block {
+        margin-top: 30px;
+    }
+    
+    
+    /* ==========================================================
+    refer-and-win page css start here
+    ========================================================== */
+    
+    
+    .refer-win-block ul.customTab li a {
+        font-size: 15px;
+        line-height: 41px;
+    }
+    
+    
+    .win-block .col-span-3 {
+        width: 100%;
+        margin-bottom: 26px;
+    }
+    
+    .refer-win-block ul.customTab li a {
+        font-size: 12px;
+        line-height: 31px;
+        margin: 0 5px;
+        min-width: auto;
+        padding: 5px 14px;
+    }
+    
+    section.refer-earn .invite-block {
+        padding: 28px 18px;
+    }
+    section.refer-earn .invite-block .share-on-twitter p {
+        word-break: break-word;
+    }
+    
+    .win-block .how-to-win-block {
+        border-radius: 35px;
+    }
+    
+    
+    .reviewSliderContentBlock .popularHead .popular-courses-image img {
+        width: 64px;
+        height: 64px;
+    }
+    
+    .reviewSliderContentBlock .popularHead .popular-courses-image {
+        margin-right: 2px;
+    }
+    
+    .reviewSliderContentBlock .popularHead .popular-courses-content span.age {
+        font-size: 12px;
+    }
+    
+    
+    
+    .reviewFromParents .reviewSliderBlock .slick-next,
+    .reviewFromParents .reviewSliderBlock .slick-prev {
+        top: inherit;
+        bottom: 0px;
+    }
+    
+    
+    
+    .reviewFromParents .reviewSliderBlock .slick-prev {
+        left: 35%;
+    }
+    
+    .reviewFromParents .reviewSliderBlock .slick-next {
+        right: 35%;
+    }
+    
+    
+    .reviewFromParents .reviewSliderBlock .slick-prev:before{
+    background-image: url('../images/ab-left-arrow.svg');
+        content: "";
+        background-size: auto;
+        width: 40px;
+        height: 10px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    
+    .reviewFromParents .reviewSliderBlock .slick-next:before {
+    background-image: url('../images/ab-right-arrow.svg');
+    content: "";
+    background-size: auto;
+        width: 40px;
+        height: 10px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    
+    /* ==========================================================
+    Genral landing page css start here
+    ========================================================== */
+    
+    .child-develop-banner {
+        padding: 20px 0;
+        border-top: 0.5px solid #000000;
+    }
+    
+    .chdevelop-banner-content h1 span,
+    .chdevelop-banner-content h1 {
+        text-align: center;
+        font-size: 35px;
+        line-height: 35px;
+    }
+    
+    .chdevelop-info .ch-info-wrapper h3{
+    font-size: 24px;
+    line-height: 24px;
+    
+    }
+    
+    .chdevelop-info .ch-info-wrapper p{
+    font-size: 10px;
+    line-height: 14px;
+    }
+    
+    .chdevelop-info .ch-info-wrapper{
+        border-radius: 15.7865px;    
+    }
+    
+    .chdevelop-banner-content p {
+        text-align: center;
+    }
+    
+    
+    .explore-block h1, .explore-block h1 span, .book-a-free .book-a-free-content h1, .chdevelop-banner-content h1 span, .chdevelop-banner-content h1{
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    }
+    
+    .book-a-free .book-a-free-content p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 34px;
+    }
+    
+    .book-a-free-content a.arrow-btn {
+        display: none;
+    }
+    
+    .book-a-free form.book-form {
+        padding:20px 15px;
+    }
+    
+    .book-a-free form.book-form h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .book-a-free form.book-form p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+    .book-a-free .mobile-block .code-block {
+        padding:6px 5px;
+        font-size: 11px;
+        width: 29%;
+        height: 40.07px;
+    }
+    
+    .book-a-free .mobile-block .input-field {
+        width: 67%;
+        margin-left: 9px;
+    }
+    
+    .book-a-free input.form-control {
+    height: 40.07px;
+        font-size: 12px;
+        padding: 0 18px;
+    }
+    
+    
+    .book-a-free form.book-form .continue-btn a.send-otp img {
+        width: 22px;
+    }
+    
+    .book-a-free form.book-form .continue-btn a.send-otp {
+        font-size: 12px;
+        line-height: 39px;
+        width: 100%;
+        height: 39px;
+    }
+    
+    .select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left: 4px;
+        padding-right: 0px;
+    }
+    
+    
+    
+    
+    
+    .explore-block {
+        padding: 22px 0;
+    }
+    
+    .explore-block p {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+    
+    .explore-block-content a.arrow-btn {
+        display: none;
+    }
+    
+    .programs-wrapper .programs-blocks {
+        padding: 0 14px;
+        border-radius: 22px;
+        height:  55.2px;
+    }
+    
+    
+    .programs-wrapper .programs-blocks .programs-cont h4 {
+        font-size: 9.99998px;
+        line-height: 14px;
+    }
+    
+    
+    .programs-wrapper .programs-img img {
+        width: 40.4px;
+        height: auto;
+    }
+    
+    .every-courses {
+        padding: 48px 0;
+    }
+    
+    .every-courses .every-courses-wrapper {
+        padding: 22px 0;
+    }
+    
+    .every-courses-wrapper h4 {
+        font-size: 18px;
+        line-height: 35px;
+        height: auto;
+        min-height: auto;
+    }
+    
+    .every-courses .every-courses-wrapper p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    
+    .chd-banner-gallery-wrapper {
+        padding-left: 0px;
+        min-height: 402px;
+    }
+    
+    .book-a-free {
+        padding: 50px 0;
+    }
+    
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-gallery1 img {
+        max-width: 111px;
+    }
+    
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-gallery3 img {
+        max-width: 156px;
+    }
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-gallery4 img {
+        width: 100%;
+        max-width: 112px;
+    }
+    
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-courses {
+        width: 118px;
+        height: 118px;
+    }
+    
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-courses span.star {
+        display: block;
+        width: 33px;
+        height: 34px;
+    }
+    
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-courses h5 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-courses p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    
+    .chdevelop-banner-content {
+        margin-bottom: 31px;
+    }
+    
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-gallery3 {
+        top: 108px;
+        left: 91px;
+    }
+    
+    .chd-banner-gallery-wrapper .chd-banner-gallery.chd-gallery4 {
+        top: 277px;
+        left: 21px;
+    }
+    
+    
+    /* ==========================================================
+    streaming-talent page css start here
+    ========================================================== */
+    
+    .streaming-banner .streaming-ban-wrapper:after {
+        height: 54%;
+        top: 12%;
+    }
+    .streaming-banner .streaming-ban-wrapper {
+        position: relative;
+        order: -1;
+    }
+    
+    .streaming-ban-content {
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .streaming-ban-content .last-date {
+        justify-content: center;
+    }
+    
+    .streaming-ban-content .last-date span.icon img {
+    width: 45px;
+    }
+    
+    .streaming-ban-content .last-date p {
+        font-size: 14px;
+    }
+    
+    .about-event {
+        padding-top: 57px;
+    }
+    
+    
+    .streaming-ban-content span.music-img{
+    display: none;
+    }
+    
+    .about-event:before {
+        width: 78px;
+        height: 128px;
+        right: 0;
+        top: -82px;
+    }
+    
+    
+    .about-event p {
+        max-width: 100%;
+        margin: 0 auto;
+        width: 89%;
+        text-align: justify;
+        line-height: 23px;
+    }
+    
+    .guidelines .guidelines-title span.icon {
+        width: 70px;
+    }
+    
+    .guidelines .guidelines-title h3 {
+        font-size: 20px;
+        line-height: 31px;
+    }
+    
+    .guidelines {
+        padding: 33px 17px 25px;
+    }
+    
+    
+    .guidelines ul li:before {
+        width: 22px;
+        height: 22px;
+    }
+    
+    .guidelines ul li {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 22px;
+        padding-left: 33px;
+    }
+    
+    .guidelines:after {
+        width: 118px;
+        height: 121px;
+        right: 43px;
+        bottom: -121px;
+    }
+    
+    .Categories-section {
+        padding: 120px 0 40px;
+    }
+    
+    .best-performers {
+        border-radius: 10px;
+        width: 91%;
+        margin: 0 auto;
+        padding: 27px 0 58px;
+    }
+    
+    .Performers-title {
+        padding-top: 9px;
+        text-align: center;
+    }
+    
+    .Performers-title h2 br {
+        display: none;
+    }
+    
+    .Performers-title h2 span {
+        color: #96296E;
+        display: block;
+        font-size: 37px;
+    }
+    
+    .Performers-title h2 {
+        margin-bottom: 20px;
+    }
+    
+    .Performers-block .awards-block {
+        width: 100%;
+        text-align: center;
+        padding: 0 0px;
+    }
+    
+    
+    .best-performers:before {
+        width: 87px;
+        height: 158px;
+        bottom: -69px;
+        left: -23px;
+    }
+    
+    section.streaming-talent .book-a-free .row-flex .col-span-6:last-child {
+        order: -1;
+    }
+    
+    .book-a-free-content .submit-girl a.arrow-btn{
+        display: none;
+    }
+    
+    .book-a-free-content .submit-girl {
+        position: absolute;
+        top: 17px;
+        right: 0;
+    }
+    
+    .book-a-free-content .submit-girl img {
+        max-width: 121px;
+    }
+    
+    .after-login-block >.book-a-free-content .submit-girl {
+        position: relative;
+        display: block;
+    }
+    
+    .after-login-block >.book-a-free-content .streaming-ban-content {
+        width: 100%;
+        margin-top: 16px !important;
+    }
+    .blog-deatil-post img {
+        width: auto!important;
+        height: auto!important;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    
+    /* ===========================================
+    student-policy us page css start here
+    =========================================== */
+    
+    
+    section.cms-page.student-policy .policy-terms p {
+        font-size: 14px;
+    }
+    
+    
+    .student-conduct {
+        padding: 36px 19px;
+    }
+    
+    section.cms-page.student-policy .student-conduct ul li, section.cms-page.student-policy .student-conduct ul li p {
+        font-size: 14px;
+    }
+    
+    
+    
+    }
+    @media (max-width:479px){
+    /* =============================================
+    SIGN UP POPUP CSS START HERE
+    =============================================== */
+    .enter-otp .form-group-regiser .passcode-wrapper input[type="number"] {
+        width: 37.94px;
+        height: 42px;
+        border-radius: 5.47155px;
+        font-size: 18px;
+    }
+    
+    
+    .after-login-block >.book-a-free-content .streaming-ban-content .streaming_count_main {
+        font-size: 58.492px;
+        line-height: 65px;
+    }
+    
+    .after-login-block >.book-a-free-content .streaming-ban-content .streaming_count_main span h2 {
+        font-size: 36px;
+        line-height: 68px;
+        width: 70.54px;
+        height: 71.54px;
+        border-radius: 11px;
+        margin: 0 9px;
+    }
+    .blog-deatil-post img {
+        width: auto!important;
+        height: auto!important;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    
+    }
+    
+    @media only screen and (max-width: 800px){ 
+    
+    .mobile-hide{display: none !important}
+    .blog-deatil-post img {
+        width: auto!important;
+        height: auto!important;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    }
+    
+    
+    
+    @media screen and (min-width: 600px)  {
+        .mobile-break { display: none; }
+        .mobile-bold-text{ font-weight: 600 !important;}
+        .blog-deatil-post img {
+            width: auto!important;
+            height: auto!important;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+    
+    @media (max-width: 767px){
+        .reviewFromParents  .investors-blocks {
+            padding:  0px 10px !important;
+        }
+        .reviewFromParents .investors-blocks ul.investors-list li {
+            margin-bottom: 0px;
+        }
+        .reviewFromParents .investors-blocks ul.investors-list {
+            padding-bottom: 8px;
+        }
+        }
+
+
+
+
+/* ==========================================================
+Course detail page css start here
+========================================================== */
+
+.courses-detail-main {
+    padding: 0 25px;
+}
+
+h2.text-black{
+color: #000000;
+font-weight: 600;
+margin-bottom: 33px;
+}
+
+
+.coursesTopBanner {
+background: #FFE0F4;
+box-shadow: 25px 25px 55px rgba(0, 0, 0, 0.05), inset -55px -55px 55px #FFE9F7;
+border-radius: 25px;
+padding:60px 32px;
+}
+
+.keyboardImgBlock {
+    position: relative;
+    width: 100%;
+    max-width: 345px;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.keyContent-block h1 {
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.keyboardImgBlock img {
+    width: 100%;
+}
+
+.keyboardImgBlock a.play-btn {
+    width: 112px;
+    height: 112px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    cursor: pointer;
+}
+
+.keyboardContent p.title-key {
+    width: 72%;
+}
+
+.keyboardContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+        position: relative;
+}
+
+
+.keyboardContent p {
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    color: #1F1F1F;
+        margin: 23px 0 0;
+}
+.keyboardContent a.btn.btn-orange {
+    line-height: 40px;
+}
+
+.keyboardContent p span.strick {
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+
+.keyboardContent p span.priceHighlight {
+    font-weight: 900;
+    font-size: 25px;
+    padding-left: 8px;
+    padding-right: 9px;
+}
+
+.keyboardContent p span.green {
+   color: #4DB199;
+    padding-left: 10px;
+}
+
+section.coursesTopBanner .keyboardContent:last-child:after{
+content: "";
+display: block;
+width: 100%;
+height: 50%;
+background: url(../images/course_detail/Waves1.svg),
+url(../images/course_detail/Waves2.svg),
+url(../images/course_detail/Waves3.svg),
+url(../images/course_detail/Waves4.svg);
+background-position: 0 0, 0 27%, 0 53%, 0 80%;
+position: absolute;
+top: 27%;
+right: 0%;
+background-repeat: no-repeat;
+background-size: 100%;
+z-index: 1;}
+
+
+.aboutUs.courses {
+    background: #DAECFF;
+box-shadow: 25px 25px 55px rgba(0, 0, 0, 0.05), inset -55px -55px 55px #E6F2FF;
+border-radius: 25px;
+padding: 70px 32px;
+    margin: 80px 0 110px;
+}
+
+.about-content p {
+    width: 50%;
+    color: #000000;
+}
+
+.about-content p:last-child {
+    padding-left: 40px;
+}
+
+
+
+.customTabContent {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.courseDetails .tablsAction {
+    margin-bottom: 80px;
+}
+
+
+.customTabContent .learningMap {
+background: rgba(255, 255, 255, 0.25);
+border: 1px solid rgba(0, 0, 0, 0.15);
+box-shadow: 15px 15px 55px rgba(0, 0, 0, 0.08);
+border-radius: 55px;
+max-width: 923px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 60px;
+}
+
+
+
+.learningMap p {
+    font-size: 17px;
+    line-height: 33px;
+    color: #454545;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.customTabContent .learningMap h2 {
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+
+.tablsAction ul.customTab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tablsAction ul.customTab a.active {
+background: #CDE5FF;
+border: 1px solid #000000;
+box-shadow: 15px 15px 0px #DFEEFF;
+border-radius: 55px;
+}
+
+.tablsAction ul.customTab a {
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.55);
+box-shadow: 15px 15px 0px #FFEAF7;
+border-radius: 55px;
+}
+
+.tablsAction ul.customTab a:hover{
+    background: #ffd1ee;
+    color: #000;
+        text-decoration: underline;
+
+}
+
+.tablsAction ul.customTab a {
+    font-size: 18px;
+    line-height: 43px;
+    text-transform: uppercase;
+    min-width: 240px;
+    margin: 0 40px;
+}
+
+.customTabContent ul.courseBox {
+    display: flex;
+    flex-wrap: wrap;
+        margin-bottom: 70px;
+}
+
+.customTabContent ul.courseBox li {
+background: #FFFFFF;
+box-shadow: 15px 15px 55px rgba(0, 0, 0, 0.05);
+border-radius: 25px;
+    width: 21%;
+    margin-right: 4%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.customTabContent ul.courseBox li .courseNumber {
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 33px;
+    color: #296176;
+    padding: 8px 0;
+}
+
+.customTabContent ul.courseBox li p {
+    font-size: 18px;
+    line-height: 33px;
+    color: #6D6D6D;
+}
+
+.courseDetails {
+    padding-bottom: 130px;
+}
+
+.curriculumContent{
+background: #D7F5F4;
+box-shadow: 15px 15px 55px rgba(0, 0, 0, 0.08), inset -55px -55px 55px #DAF9F1;
+border-radius: 75px;  
+}
+
+ul.curriculumBlock li:nth-child(2) .curriculumContent{
+background: #F9DEF2;
+box-shadow: 15px 15px 55px rgba(0, 0, 0, 0.08), inset -55px -55px 55px #FFE8F6;
+}
+
+ul.curriculumBlock li:nth-child(3) .curriculumContent{
+background: #DDDDF5;
+box-shadow: 15px 15px 55px rgba(0, 0, 0, 0.08), inset -55px -55px 55px #EAEAFD;
+}
+
+
+
+.curriculumContent button.accordion {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 63px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    font-family: 'Josefin Sans';
+    background-color: transparent;
+    transition: background-color 0.2s linear;
+    cursor: pointer;
+}
+
+
+.curriculumContent button.accordion:after {
+    content: "\f0d7";
+    font-family: "fontawesome";
+    font-size: 24px;
+    padding-left: 20px;
+    border-radius: 0px;
+}
+
+.accordion-content {
+    padding: 0 40px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+    text-align: center;
+}
+
+
+.accordion-content .monthHead {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    color: #96296E;
+    margin-top: 14px;
+    margin-bottom: 9px;
+
+}
+
+.accordion-content p {
+    font-style: normal;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.willReviewBlock .willReviewImg {
+    width: 20%;
+}
+
+.willReviewImg img {
+    width: 55px;
+}
+
+.willReviewBlock .willReviewCont {
+    width: 80%;
+}
+
+.willReviewCont .willReviewHead {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 33px;
+    color: #96296E;
+}
+
+.willReviewCont p {
+    color: #454545;
+}
+
+
+.willReviewBlock {
+margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+
+
+
+.chooseYourPack {
+background: url(../images/course_detail/ReferAndEarn.webp) no-repeat center center / cover;
+border-radius: 25px;
+text-align: center;
+position: relative;
+z-index: 2;
+padding-top: 60px;
+margin-bottom: 50px;
+    padding-bottom: 60px;
+}
+
+
+.choosePackBlock{
+display: flex;
+flex-wrap: wrap;
+}
+
+
+
+.choosePackContent {
+background: rgba(255, 255, 255, 0.7);
+    border: 3px solid #000000;
+    border-radius: 55px;
+    padding: 20px 40px 40px;
+    width: 30.333%;
+    display: inline-block;
+    margin: 20px 1.5%;
+    vertical-align: top;
+}
+
+.choosePackContent .groupCourse {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 54px;
+    color: #1A4778;
+}
+
+.cooperationTag {
+    display: inline-block;
+    padding: 0px 40px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    position: relative;
+    min-width: 245px;
+    text-align: center;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.cooperationTag::before {
+    content: "";
+    display: block;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 15px solid #fbfbfb;
+    position: absolute;
+    left: 0px;
+}
+
+
+.cooperationTag::after {
+    content: "";
+    display: block;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-right: 15px solid #fbfbfb;
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+
+.choosePackBlock .quarterly {
+    background: #ea8176;
+}
+
+.choosePackBlock .half_yearly {
+background: #70ABEB;
+}
+
+.choosePackBlock .annualy {
+background: #B65191;
+}
+
+.choosePackContent .sessionsBlock {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 54px;
+    color: #EA8176;
+}
+
+.choosePackContent .priceBlock {
+   font-weight: 600;
+    font-size: 36px;
+    line-height: 55px;
+    letter-spacing: 0.05em;
+    color: #96296E;
+}
+
+.choosePackContent .actualAmount span {
+     font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #767676;
+    text-decoration: line-through;
+}
+
+.choosePackContent .perSession {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 54px;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+}
+
+.choosePackContent a.btn.enroll {
+    background: #2C2C2C;
+box-shadow: 9.51111px 9.51111px 0px #FCBFB9;
+border-radius: 65.3889px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 17px;
+}
+
+.individual_packages {
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000; margin-top: 15px;
+}
+.individual_packages span {
+    font-size: 31px;
+    line-height: 1;
+    display: inline-block;
+}
+
+.individual_packages a {
+    text-decoration: underline;
+}
+
+
+.reviewFromParents .topReview {
+height: 50px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin:3px 0px;
+}
+
+
+.reviewFromParents .topReview li {
+text-align: center;
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);    
+ transform:translateX(100%);
+ -moz-animation: topReview 10s linear infinite;
+ -webkit-animation: topReview 10s linear infinite;
+ animation: topReview 10s linear infinite;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 50px;
+letter-spacing: 0.05em;
+color: #767676;
+flex: 0 0 auto;
+padding: 0px 60px;
+}
+
+
+.reviewFromParents .topReview li:after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0px;
+    border-radius: 20px;
+    height: 5px;
+    width: 5px;
+    background: rgba(118, 118, 118, 1);
+    top: 50%;
+}
+
+
+@-moz-keyframes topReview {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes topReview {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes topReview {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);       
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+/* .topReview li:hover {
+ -moz-animation-play-state: paused;
+ -webkit-animation-play-state: paused;
+ animation-play-state: paused;
+ }
+ */
+
+
+.reviews {
+    overflow: hidden;
+        margin-top: 30px;
+}
+
+.reviews::after, .reviewSliderBlock::after, .reviewSliderBlock ul::after {
+    contain: "";
+    display: block;
+    clear: both
+}
+
+.reviewSliderBlock ul li {
+    padding:8px 15px 25px;
+    width: 33.333%;
+    float: left
+}
+
+.reviewSliderBlock button.slick-arrow {
+    top: -13px;
+}
+
+.reviews .slick-list {
+    padding: 0 33.333% 0 0
+}
+
+.reviewSliderContentBlock {
+background: #DAECFF;
+box-shadow: 25px 25px 55px rgba(0, 0, 0, 0.08);
+border-radius: 35px;
+padding: 40px 40px;
+width: 95%;
+margin-bottom: 32px;
+}
+
+
+.slick-current.slick-active .reviewSliderContentBlock{
+background: #FFEAF7;
+}
+
+
+.slick-active .reviewSliderContentBlock{
+background: #FFFCE9;
+}
+
+
+.reviewSliderContentBlock .popularHead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+
+.reviewSliderContentBlock .popularHead .popular-courses-image {
+    width: auto;
+    height: auto;
+    box-shadow: none;
+    background: none;
+    line-height: normal;
+    margin-right: 20px;
+}
+
+.reviewSliderContentBlock .popularHead .popular-courses-content {
+    font-weight: 800;
+    line-height: 33px;
+    color: #1F1F1F;
+        font-size: 18px;
+}
+.reviewSliderContentBlock .popularHead .popular-courses-content span.age {
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+ }   
+
+
+.reviewSliderContentBlock .popularHead .popular-courses-image img {
+    width: 90px;
+    max-width: 100%;
+    height: 90px;
+    object-fit: cover;
+}
+
+.reviewSliderContentBlock p {
+font-weight: 500;
+    line-height: 33px;
+    color: #515151;
+    min-height: 145px;
+}
+
+
+.reviewFromParents {
+    padding: 70px 0;
+}
+
+
+
+section.faqs {
+    margin-top: 55px;
+}
+
+section.faqs .faq-accordion ul li a {
+font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 33px;
+    color: #1F1F1F;
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 24px;
+        position: relative;
+}
+
+section.faqs .faq-accordion ul li .faq-discriptionshow{
+    display: none;
+}
+
+section.faqs .faq-accordion ul li .faq-discriptionshow p {
+    font-weight: 500;
+    color: #4F4F4F;
+}
+
+section.faqs .faq-accordion ul li.active {
+    background: rgba(245, 245, 245, 0.75);
+    border-radius: 55px;
+    
+}
+
+section.faqs .faq-accordion ul li {
+padding: 40px 70px;
+    margin-bottom: 0;
+}
+
+section.faqs .faq-accordion ul li.active .faq-discriptionshow{
+    display: block;
+}
+
+section.faqs .faq-accordion ul li a i {
+    position: absolute;
+    right: 40px;
+    top: 0px;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+section.faqs .faq-accordion ul li a i.plus-icon {
+    background: url('../images/plus-icon.svg') no-repeat center center / 12px;
+}
+
+section.faqs .faq-accordion ul li a i.minus-icon {
+    background: url('../images/minus-icon.svg') no-repeat center center / 12px;
+}
+
+section.searchFor {
+    padding: 60px 0;
+}
+
+
+.searchFor .searchForBlock {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchFor .searchForBlock .searchForContent{
+background: #FFFFFF;
+box-shadow: 25px 25px 55px rgba(0, 0, 0, 0.08);
+border-radius: 35px;
+    padding: 35px 32px;
+
+}
+
+
+.searchFor .searchForBlock .searchForContent .searchForImg img {
+    border-radius: 35px;
+}
+
+.searchForContent .searchForContentBtn .searchForHeading {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    color: #1F1F1F;
+    min-height: 34px;
+    margin-bottom: 10px;
+}
+
+.searchForContent .searchForContentBtn p {
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #656565;
+}
+.searchForContent .searchForContentBtn a.viewDetails {
+    background: #242424;
+    border-radius: 55px;
+    display: block;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 43px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 29px;
+}
+
+
+
+
+
+/* ..........................................
+    individual packages
+.......................................... */
+
+#individual-packages.modal {
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+#individual-packages .container {
+    max-width: 1000px;
+}
+
+
+#individual-packages .chooseYourPack {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    transform: translate(0%, -50%);
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+
+#individual-packages .choosePackContent {
+    padding: 20px 21px 40px;
+    border-radius: 35px;
+}
+
+
+#individual-packages button.close {
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    font-size: 52px;
+    background: none;
+    color: #000;
+    font-family: 'Avenir LT Pro';
+    font-weight: 300;
+}
+
+#individual-packages h2 {
+font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.meetYourTeachers{padding: 70px 0px;margin: 0px;position: relative}
+.meetYourTeachers::before{content: "";position: absolute;width: 200px;height: 200px;right: 0;top: -90px;background: rgba(165, 208, 255, 0.8);filter: blur(120px);z-index: -1}
+.meetYourTeachers::after{content: "";position: absolute;width: 200px;height: 200px;left: -80px;bottom: -40px;background: rgba(249, 143, 210, 0.35);filter: blur(110px);z-index: -1}
+.teacherImgBloxk{display: inline-block;width: 42%;vertical-align: middle;position: relative;text-align: center}
+.meetTeacherContentBlock{width: 50%;display: inline-block;vertical-align: middle;padding-left: 40px}
+.teacherImg img{padding: 40px;border: 1px solid #eb1f48;border-radius: 100%;max-width: 370px;margin: 0px auto}
+.teacherContent p{width: 90%;line-height: 30px}
+.teachersSlider .slick-dots li button::before{color: #f0f0f0}
+.teachersSlider .slick-dots li.slick-active button:before{color: #b8b8b8}
+section.reviewFromParents{padding: 0px;position: relative}
+
+
+
+@media (max-width:767px){
+
+footer {
+    padding: 50px 0 152px !important;
+}
+
+}
