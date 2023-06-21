@@ -92,19 +92,8 @@
 </nav>
 <!--MAIN HEADER AREA END -->
 <!--MAIN BANNER AREA START -->
-<div class="page-banner-area page-contact" id="page-banner">
-  <div class="overlay dark-overlay"></div>
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 m-auto text-center col-sm-12 col-md-12">
-        <div class="banner-content content-padding">
-          <h1 class="text-white">Let's Connect with us</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, perferendis?</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<br>
+<br>
 <!--MAIN HEADER AREA END -->
 <!--  Contact START  -->
 <section class="section-padding">
@@ -133,6 +122,10 @@
 
         const senderEmail = document
           .getElementById('emailInput').value;
+        const sendername = document
+          .getElementById('messageInput').value;
+        const senderMessage = document
+          .getElementById('messageInput').value;
         const senderMessage = document
           .getElementById('messageInput').value;
 
@@ -140,15 +133,15 @@
           embeds: [{
             title: 'Contact Form Submitted',
             fields: [
-              { name: 'Sender', value: senderEmail },
+              { name: 'name', value: sendername },
               { name: 'email', value: senderEmail },
-              { name: 'Sender', value: senderEmail },
+              { name: 'contact', value: sendercontact },
               { name: 'Message', value: senderMessage }
             ]
           }],
         };
 
-        const webhookUrl = 'https://discord.com/api/webhooks/1119304771258548224/_r6Cv_Qlbe8F6JZs6B4idjwtfJzmorpR9NnM7GPKw-fmDYisAC4m4Go1gqog9Fq5Luaf';
+        const webhookUrl = 'https://discord.com/api/webhooks/1119312964256804926/hTqlIwW8Kt6FyGLkVrEbU8jm6lbAdAmPJmTi9IoCcEy63t5RFpAlXaB7ktr7C3SGttcI';
 
         const response = await fetch(webhookUrl, {
           method: 'POST',

@@ -396,7 +396,7 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white {
-  background: #111;
+  background: #ff9219;
 }
 
 .trans-navigation.header-white .navbar-nav .nav-link {
@@ -1350,6 +1350,7 @@ BLOG SINGLE
   position: relative;
   background: url("../images/bg/2.png");
   border-top: 1px solid #eee;
+  background-color: #8884da;
 }
 
 .footer-widget ul li {
