@@ -1,0 +1,129 @@
+
+.btn.btn-primary {
+    display: flex;
+  }
+  
+  
+  .pseudo-bft-btn .btn {
+    position: relative;
+    overflow: hidden;
+    width: 17rem;
+    height: 51px;
+    font-family: FuturaPTBold,sans-serif;
+    justify-content: center;
+    border: none;
+    padding: 5px 12px;
+  }
+  header .logo_navbar
+  {
+    position: relative;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    z-index: 100000;
+  
+  
+  }
+  
+  
+  .btn {
+    height: 45px;
+    box-sizing: border-box;
+    font-style: normal;
+    background: transparent;
+    font-family: FuturaPT,sans-serif;
+    cursor: pointer;
+    font-size: 1.125rem;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    cursor: default;
+  }
+  
+  
+  /* .btn-primary {
+    -webkit-animation: f 53s linear infinite;
+    animation: f 53s linear infinite;
+    background: linear-gradient(121.19deg,rgba(133,239,49,0) 25.73%,hsla(0,0%,100%,.3) 45.27%,rgba(133,239,49,0) 62.27%),#ff8d1a;
+  } */
+  
+  .btn-primary {
+    position: relative;
+    overflow: hidden;
+    padding-left: 10px;
+    background: linear-gradient(
+      121.19deg,
+      #ff8d1a,
+      #ff8d1a,
+      #ff8d1a,
+      #ff8d1a
+    );
+  }
+  
+  .btn-primary::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0)
+    );
+    transform: rotate(0deg) translateX(-150%);
+    animation: shine 2.5s infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      transform: rotate(0deg) translateX(-150%);
+    }
+    100% {
+      transform: rotate(0deg) translateX(150%);
+    }
+  }
+
+ 
+.btn-shine
+position: absolute
+top: 50%
+left: 50%
+transform: translate(-50%,-50%)
+padding: 12px 48px
+color: #ffffff
+background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%)
+background-position: 0
+-webkit-background-clip: text
+-webkit-text-fill-color: transparent
+animation: shine 3s infinite linear
+animation-fill-mode: forwards
+-webkit-text-size-adjust: none
+font-weight: 600
+font-size: 16px
+text-decoration: none
+white-space: nowrap
+    
+@keyframes shine
+  0%
+    background-position: 0
+  60%
+    background-position: 180px
+  100%
+    background-position: 180px

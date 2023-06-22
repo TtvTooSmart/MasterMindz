@@ -334,14 +334,14 @@ h5.subtitle {
 .site-navigation,
 .trans-navigation {
   padding: 20px 0px;
-}
+} 
 
-.site-navigation .navbar-nav a,
+ .site-navigation .navbar-nav a,
 .trans-navigation .navbar-nav a {
   text-transform: uppercase;
   display: inline-block;
   list-style: none;
-}
+} 
 
 .site-navigation .navbar-nav a.active,
 .trans-navigation .navbar-nav a.active {
@@ -403,16 +403,14 @@ h5.subtitle {
   color: #fff;
 }
 
-.trans-navigation.header-white .navbar-nav a.active {
-  color: #635CDB;
-}
+
 
 .navbar-brand img {
   max-width: 30%;
 }
 
 .trans-navigation.header-white .btn-white {
-  background: #635CDB;
+  /* background: #635CDB; */
   color: #ffffff;
 }
 
@@ -500,7 +498,7 @@ h5.subtitle {
 .dropdown-item.active,
 .dropdown-item:hover {
   background: rgba(99, 92, 219, 0.1);
-  color: #635CDB;
+  /* color: #635CDB; */
 }
 
 button:focus {
@@ -574,7 +572,7 @@ ul.dropdown-menu li {
 
 .banner-content .subtitle {
   color: #fff;
-  background: #635CDB;
+  /* background: #635CDB; */
   display: inline-block;
   padding: 3px 8px;
   margin-bottom: 20px;
@@ -702,17 +700,7 @@ INner Pages
   padding-bottom: 85px;
 }
 
-.about-bg-img {
-  position: absolute;
-  right: 0px;
-  content: "";
-  background: url("../images/banner/1.jpg") 50% 50%;
-  width: 40%;
-  height: 100%;
-  max-height: 560px;
-  top: 0px;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
-}
+
 
 .about-content {
   margin-top: 94px;
