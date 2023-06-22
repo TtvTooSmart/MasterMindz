@@ -85,6 +85,8 @@
 
 })(jQuery);
 
+
+
 const buttons = document.querySelectorAll(".faq-toggle");
 
 buttons.forEach((button) => {
@@ -263,4 +265,3 @@ $('a[href*="#"]')
 		animateLayer(section.find(".cd-modal-bg"), 1, false);
 	}
   });
-  

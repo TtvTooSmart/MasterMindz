@@ -691,6 +691,7 @@ background: url(../images/vector1.svg);
 .curricularImg img {
     width: 100%;
     box-shadow: 25px 25px 55px rgba(0, 0, 0, 0.08);
+    border-radius: 19px;
 }
 
 .extra_curricular h1 {
@@ -748,6 +749,11 @@ background: url(../images/vector1.svg);
 .title-main h2{
     text-align: center;
     margin-bottom: 57px;
+}
+
+.section2 h2{
+    color: #242424;
+
 }
 
 .popular-courses-block {
@@ -4900,12 +4906,12 @@ padding: 70px 32px;
 }
 
 .about-content p {
-    width: 50%;
+    width: 70%;
     color: #000000;
 }
 
 .about-content p:last-child {
-    padding-left: 40px;
+    padding-left: 1px;
 }
 
 

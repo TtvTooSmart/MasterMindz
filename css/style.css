@@ -126,6 +126,7 @@ h5.subtitle {
 
 .section-padding {
   padding: 90px 0px;
+  background-color: #dadada;
 }
 
 .section-heading {
@@ -396,7 +397,7 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white {
-  background: #ff9219;
+  background: #000000;
 }
 
 .trans-navigation.header-white .navbar-nav .nav-link {
@@ -1083,6 +1084,7 @@ PRICING PAGE
   padding: 0px 40px;
   text-align: center;
   margin-bottom: 40px;
+  /* background-color: #dedede; */
 }
 
 .testimonial-content .author-text {
