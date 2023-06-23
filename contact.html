@@ -19,7 +19,11 @@
   <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
   <!-- Icofont -->
   <link rel="stylesheet" href="plugins/icofont/icofont.css">
-
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+  <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
   
@@ -99,8 +103,8 @@
       <div class="col-lg-6 col-sm-12 col-md-12">
         <div class="mb-5">
           <h2 class="mb-2">Get in touch</h2>
-          <p>Have a project on mind,want to make an consultant. Don't hesistate to contact us.Let's have atalk
-            together.Colaborat eyour project to done quickly</p>
+          <p>Have a project on mind,want to make an consultant. Don't hesistate to contact us.Let's have a talk
+            together.Colaborate your project to done quickly</p>
         </div>
       </div>
     </div>
@@ -113,48 +117,7 @@
               <div class="alert alert-success contact__msg" style="display: none" role="alert">
                 Your message was sent successfully.
               </div>
-              <script>
-                async function sendContact(ev) {
-        ev.preventDefault();
-
-        const senderEmail = document
-          .getElementById('emailInput').value;
-        const sendername = document
-          .getElementById('messageInput').value;
-        const senderMessage = document
-          .getElementById('messageInput').value;
-        const senderMessage = document
-          .getElementById('messageInput').value;
-
-        const webhookBody = {
-          embeds: [{
-            title: 'Contact Form Submitted',
-            fields: [
-              { name: 'name', value: sendername },
-              { name: 'email', value: senderEmail },
-              { name: 'contact', value: sendercontact },
-              { name: 'Message', value: senderMessage }
-            ]
-          }],
-        };
-
-        const webhookUrl = 'https://discord.com/api/webhooks/1119312964256804926/hTqlIwW8Kt6FyGLkVrEbU8jm6lbAdAmPJmTi9IoCcEy63t5RFpAlXaB7ktr7C3SGttcI';
-
-        const response = await fetch(webhookUrl, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(webhookBody),
-        });
-
-        if (response.ok) {
-          alert('I have received your message!');
-        } else {
-          alert('There was an error! Try again later!');
-        }
-      }
-              </script>
+              
             </div>
           </div>
           <!-- end message -->
@@ -166,8 +129,24 @@
               <input name="email" type="email" class="form-control" placeholder="Email" required id="emailInput">
             </div>
             <div class="col-md-12 form-group">
-              <input name="subject" type="text" class="form-control" placeholder="Subject" required id="subjectinput">
+              <select class="select_contact" multiple data-mdb-filter="true">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five</option>
+                <option value="6">Six</option>
+                <option value="7">Seven</option>
+                <option value="8">Eight</option>
+                <option value="9">Nine</option>
+                <option value="10">Ten</option>
+              </select>
             </div>
+            <script type="text/javascript">
+              $(document).ready(function() {
+                  $('#select_contact').multiselect();
+              });
+          </script>
             <div class="col-12 form-group">
               <textarea name="message" class="form-control" rows="6" placeholder="Message" required id="messageinput"></textarea>
             </div>
