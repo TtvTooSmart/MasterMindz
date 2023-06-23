@@ -1,222 +1,343 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
+  <head>
+    <!-- ** Basic Page Needs ** -->
+    <meta charset="utf-8" />
+    <title>MasterMindz</title>
 
-  <!-- ** Basic Page Needs ** -->
-  <meta charset="utf-8">
-  <title>MasterMindz</title>
+    <!-- ** Mobile Specific Metas ** -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="MasterMindz - Main website" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
 
-  <!-- ** Mobile Specific Metas ** -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="MasterMindz - Main website">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <script src="js/script.js"></script>
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
+    <!-- Icofont -->
+    <link rel="stylesheet" href="plugins/icofont/icofont.css" />
 
-  <script src="js/script.js"></script>
-  <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <!-- fontawesome css -->
-  <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
-  <!-- Icofont -->
-  <link rel="stylesheet" href="plugins/icofont/icofont.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/new.css" />
+    <!-- <link rel="stylesheet" href="css/button.css"> -->
+    <link rel="stylesheet" href="css/faq.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!--Favicon-->
+    <link
+      rel="icon"
+      href="images/icon/oie_tFXI9fXJk3BS.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body data-spy="scroll" data-target="#mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top trans-navigation">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/logo_header-removebg-preview.png"
+            alt=""
+            class="img-fluid b-logo logo-header"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <i class="fa fa-bars"></i>
+          </span>
+        </button>
 
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/new.css">
-  <!-- <link rel="stylesheet" href="css/button.css"> -->
-  <link rel="stylesheet" href="css/faq.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-  <!--Favicon-->
-  <link rel="icon" href="images/icon/oie_tFXI9fXJk3BS.png" type="image/x-icon">
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+          <ul class="navbar-nav" style="width: 100%">
+            <li class="nav-item dropdown" style="white-space: nowrap">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#!"
+                id="navbarWelcome"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Explore Courses <i class="fas fa-chevron-down"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarWelcome">
+                <li><a class="dropdown-item" href="index.html">Chess</a></li>
+                <li><a class="dropdown-item" href="index-2.html">Maths</a></li>
+                <li>
+                  <a class="dropdown-item" href="index-3.html">Rubik's Cube</a>
+                </li>
+                <li><a class="dropdown-item" href="index-3.html">Coding</a></li>
+                <li>
+                  <a class="dropdown-item" href="index-3.html">AI for kids</a>
+                </li>
 
-</head>
-<body data-spy="scroll" data-target="#mainNav">
+                <li
+                  class="dropdown dropdown-submenu dropright"
+                  style="white-space: nowrap"
+                >
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#!"
+                    id="dropdown0301"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Music</a
+                  >
 
-  <nav class="navbar navbar-expand-lg fixed-top trans-navigation">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/logo_header-removebg-preview.png" alt="" class="img-fluid b-logo logo-header">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon">
-          <i class="fa fa-bars"></i>
-        </span>
-      </button>
-  
-      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
-        <ul class="navbar-nav" style="width: 100%;">
-  
-          <li class="nav-item dropdown" style="white-space: nowrap;">
-            <a class="nav-link dropdown-toggle" href="#!" id="navbarWelcome" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Explore Courses <i class="fas fa-chevron-down"></i>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarWelcome">
-              <li><a class="dropdown-item" href="index.html">Chess</a></li>
-              <li><a class="dropdown-item" href="index-2.html">Maths</a></li>
-              <li><a class="dropdown-item" href="index-3.html">Rubik's Cube</a></li>
-              <li><a class="dropdown-item" href="index-3.html">Coding</a></li>
-              <li><a class="dropdown-item" href="index-3.html">AI for kids</a></li>
-                      
-              <li class="dropdown dropdown-submenu dropright" style="white-space: nowrap;">
-                <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Music</a>
-      
-                <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                  <li><a class="dropdown-item" href="index.html">Guitar</a></li>
-                  <li><a class="dropdown-item" href="index.html">Piano</a></li>
-                  <li><a class="dropdown-item" href="index.html">Drums</a></li>
-                </ul>
-              </li>
-              <li class="dropdown dropdown-submenu dropright" style="white-space: nowrap;">
-                <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Languages</a>
-      
-                <ul class="dropdown-menu" aria-labelledby="dropdown0501">
-                  <li><a class="dropdown-item" href="index.html">German</a></li>
-                  <li><a class="dropdown-item" href="index.html">French</a></li>
-                  <li><a class="dropdown-item" href="index.html">Spanish</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item" style="white-space: nowrap;">
-            <a class="nav-link smoth-scroll" href="contact.html">Why MasterMindz?</a>
-          </li>
-          <li class="nav-item" style="white-space: nowrap;">
-            <a class="nav-link smoth-scroll" href="#testimonial"  >Happy Parents</a>
-          </li>
-          <li class="nav-item" style="white-space: nowrap;">
-            <a class="nav-link smoth-scroll" href="contact.html">Book a Demo</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--MAIN HEADER AREA END -->
-  
-  
-  <section class="extra_curricular">
-    <div class="container">
-      <div class="row-flex">
-        <div class="col-span-6">
-        <div class="extra_curricular-text">
-          <h1>
-            Online Chess <br><span class="highlight-color">Course<br></span> 
-          </h1>
-  
-            
+                  <ul class="dropdown-menu" aria-labelledby="dropdown0301">
+                    <li>
+                      <a class="dropdown-item" href="index.html">Guitar</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index.html">Piano</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index.html">Drums</a>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  class="dropdown dropdown-submenu dropright"
+                  style="white-space: nowrap"
+                >
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#!"
+                    id="dropdown0501"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Languages</a
+                  >
+
+                  <ul class="dropdown-menu" aria-labelledby="dropdown0501">
+                    <li>
+                      <a class="dropdown-item" href="index.html">German</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index.html">French</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="index.html">Spanish</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item" style="white-space: nowrap">
+              <a class="nav-link smoth-scroll" href="contact.html"
+                >Why MasterMindz?</a
+              >
+            </li>
+            <li class="nav-item" style="white-space: nowrap">
+              <a class="nav-link smoth-scroll" href="#testimonial"
+                >Happy Parents</a
+              >
+            </li>
+            <li class="nav-item" style="white-space: nowrap">
+              <a class="nav-link smoth-scroll" href="contact.html"
+                >Book a Demo</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="col-span-6">
-      <div class="curricularImg">
-        <img src="images/background/Website_chess.png" style="border-radius: 10px;">
-      </div> 
-      </div>
-    </div>
-    </div>
-  </section>
-  <br>
-  <section id="about" class="bg-light">
-    <div class="about-bg-img d-none d-lg-block d-md-block"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 col-sm-12 col-md-8">
-          <div class="about-content">
-            <h5 class="subtitle">Online Chess Classes</h5>
-            <h3>Ignite the strategic genius in your child <br> with our online chess classes!</h3>
-         <h1><p>About the course</p></h1>
-              Unleash the Power of Chess: Join our online classes designed for aspiring young minds who want to learn the art of chess and develop their strategic thinking abilities! Our comprehensive course provides a step-by-step teaching method that focuses on building a strong foundation in chess principles, understanding different tactics and strategies, and honing critical thinking skills. Through interactive live sessions, our expert faculty offers personalized attention and feedback, ensuring continuous improvement. By the end of this course, your child will have gained confidence in their chess abilities and developed a passion for this timeless game.</p>
-  
+    </nav>
+    <!--MAIN HEADER AREA END -->
+
+    <section class="extra_curricular">
+      <div class="container">
+        <div class="row-flex">
+          <div class="col-span-6">
+            <div class="extra_curricular-text">
+              <h1>
+                Online Chess <br /><span class="highlight-color"
+                  >Course<br
+                /></span>
+              </h1>
+            </div>
+          </div>
+          <div class="col-span-6">
+            <div class="curricularImg">
+              <img
+                src="images/background/Website_chess.png"
+                style="border-radius: 10px"
+              />
+            </div>
           </div>
         </div>
       </div>
+    </section>
+    <br />
+    <section id="about" class="bg-light text-center">
+      <div class="container">
+        <div class="row text-center">
+          <div>
+            <div class="about-content" style="text-align: center">
+              <h1 class="subtitle">Online Chess Classes</h1>
+              <h3>
+                Ignite the strategic genius in your child <br />
+                with our online chess classes!
+              </h3>
+              <h2>About the course</h2>
+             
+                Unleash the Power of Chess: Join our online classes designed for
+                aspiring young minds who want to learn the art of chess and
+                develop their strategic thinking abilities! Our comprehensive
+                course provides a step-by-step teaching method that focuses on
+                building a strong foundation in chess principles, understanding
+                different tactics and strategies, and honing critical thinking
+                skills. Through interactive live sessions, our expert faculty
+                offers personalized attention and feedback, ensuring continuous
+                improvement. By the end of this course, your child will have
+                gained confidence in their chess abilities and developed a
+                passion for this timeless game.
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="customTabContent active"
+      id="overview"
+      style="display: block; justify-content: center; position: relative"
+    >
+      <!-- <h2 class="text-black">What you will receive</h2> -->
+      <ul class="willReveive row-flex">
+        <li class="col-span-4">
+          <div class="willReviewBlock flex-css">
+            <div class="willReviewImg">
+              <img
+                class="course_img_w_h"
+                src="images/svg/strategy.jpg"
+                alt="5 SONGS"
+              />
+            </div>
+            <div class="willReviewCont">
+              <div class="willReviewHead">STRATEGIC GENIUS</div>
+              <p>
+                By the conclusion of this course, students will demonstrate
+                enhanced strategic thinking skills and the ability to plan and
+                execute effective chess moves.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="col-span-4">
+          <div class="willReviewBlock flex-css">
+            <div class="willReviewImg">
+              <img
+                class="course_img_w_h"
+                src="images/svg/TECHNICAL PROFICIENCY.jpg"
+                alt="TECHNICAL ABILITY"
+              />
+            </div>
+            <div class="willReviewCont">
+              <div class="willReviewHead">TECHNICAL PROFICIENCY</div>
+              <p>
+                Gain expertise in chess openings, mid-game strategies, endgame
+                techniques, and tactical maneuvers.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="col-span-4">
+          <div class="willReviewBlock flex-css">
+            <div class="willReviewImg">
+              <img
+                class="course_img_w_h"
+                src="images/svg/WEEKLY HOMEWORK.jpg"
+                alt="GAMIFIED PLATFORM"
+              />
+            </div>
+            <div class="willReviewCont">
+              <div class="willReviewHead">WEEKLY HOMEWORK</div>
+              <p>
+                Sharpen your skills with engaging weekly homework assignments
+                that reinforce learning and encourage independent practice.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="col-span-4">
+          <div class="willReviewBlock flex-css">
+            <div class="willReviewImg">
+              <img
+                class="course_img_w_h"
+                src="images/svg/MONTHLY ANALYSIS AND TOURNAMENTS.jpg"
+                alt="PRACTICE SUPPORT"
+              />
+            </div>
+            <div class="willReviewCont">
+              <div class="willReviewHead">MONTHLY ANALYSIS AND TOURNAMENTS</div>
+              <p>
+                Participate in monthly analysis sessions and exciting
+                tournaments to apply your skills in a competitive setting.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="col-span-4">
+          <div class="willReviewBlock flex-css">
+            <div class="willReviewImg">
+              <img
+                class="course_img_w_h"
+                src="images/svg/SUPPORT FOR PRACTICE.jpg"
+                alt="CERTIFICATION"
+              />
+            </div>
+            <div class="willReviewCont">
+              <div class="willReviewHead">SUPPORT FOR PRACTICE</div>
+              <p>
+                Access to practice resources, puzzles, and chess-related
+                materials to reinforce learning and enhance skills.
+              </p>
+            </div>
+          </div>
+        </li>
+
+        <li class="col-span-4">
+          <div class="willReviewBlock flex-css">
+            <div class="willReviewImg">
+              <img
+                class="course_img_w_h"
+                src="images/svg/CERTIFICATION.jpg"
+                alt="CERTIFICATION"
+              />
+            </div>
+            <div class="willReviewCont">
+              <div class="willReviewHead">CERTIFICATION</div>
+              <p>
+                Achieve certification from MasterMindz, showcasing your child's
+                progress and mastery of chess fundamentals!
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
-  </section>
-  
-  
-  
-  <div class="customTabContent active" id="overview" style="display: block; justify-content: center; position: relative;">
-    
-  
-    <!-- <h2 class="text-black">What you will receive</h2> -->
-  <ul class="willReveive row-flex">
-                                                                                                                                                                <li class="col-span-4">
-        <div class="willReviewBlock flex-css">
-            <div class="willReviewImg">
-                <img class="course_img_w_h" src="images/svg/strategy.jpg" alt="5 SONGS">
-            </div>
-            <div class="willReviewCont">
-                <div class="willReviewHead">STRATEGIC GENIUS</div>
-                <p>By the conclusion of this course, students will demonstrate enhanced strategic thinking skills and the ability to plan and execute effective chess moves.</p>
-            </div>
-        </div>
-    </li>
-                                                                            <li class="col-span-4">
-        <div class="willReviewBlock flex-css">
-            <div class="willReviewImg">
-                <img class="course_img_w_h" src="images/svg/TECHNICAL PROFICIENCY.jpg" alt="TECHNICAL ABILITY">
-            </div>
-            <div class="willReviewCont">
-                <div class="willReviewHead">TECHNICAL PROFICIENCY</div>
-                <p>Gain expertise in chess openings, mid-game strategies, endgame techniques, and tactical maneuvers.</p>
-            </div>
-        </div>
-    </li>
-                                                                            <li class="col-span-4">
-        <div class="willReviewBlock flex-css">
-            <div class="willReviewImg">
-                <img class="course_img_w_h" src="images/svg/WEEKLY HOMEWORK.jpg" alt="GAMIFIED PLATFORM">
-            </div>
-            <div class="willReviewCont">
-                <div class="willReviewHead">WEEKLY HOMEWORK</div>
-                <p>Sharpen your skills with engaging weekly homework assignments that reinforce learning and encourage independent practice.</p>
-            </div>
-        </div>
-    </li>
-                                                                            <li class="col-span-4">
-        <div class="willReviewBlock flex-css">
-            <div class="willReviewImg">
-                <img class="course_img_w_h" src="images/svg/MONTHLY ANALYSIS AND TOURNAMENTS.jpg" alt="PRACTICE SUPPORT">
-            </div>
-            <div class="willReviewCont">
-                <div class="willReviewHead">MONTHLY ANALYSIS AND TOURNAMENTS</div>
-                <p>Participate in monthly analysis sessions and exciting tournaments to apply your skills in a competitive setting.</p>
-            </div>
-        </div>
-    </li>
-                                                                            <li class="col-span-4">
-        <div class="willReviewBlock flex-css">
-            <div class="willReviewImg">
-                <img class="course_img_w_h" src="images/svg/SUPPORT FOR PRACTICE.jpg" alt="CERTIFICATION">
-            </div>
-            <div class="willReviewCont">
-                <div class="willReviewHead">SUPPORT FOR PRACTICE</div>
-                <p>Access to practice resources, puzzles, and chess-related materials to reinforce learning and enhance skills.
-                </p>
-            </div>
-        </div>
-    </li>
-     
-    <li class="col-span-4">
-    <div class="willReviewBlock flex-css">
-      <div class="willReviewImg">
-          <img class="course_img_w_h" src="images/svg/CERTIFICATION.jpg" alt="CERTIFICATION">
-      </div>
-      <div class="willReviewCont">
-          <div class="willReviewHead">CERTIFICATION</div>
-          <p>Achieve certification from MasterMindz, showcasing your child's progress and mastery of chess fundamentals!</p>
-      </div>
-  </div>
-  </li>
-  
-                                                                                                                                                                                                                 
-  </ul>
-  </div>
-  
-
-
-
-</body>
-<script src="js/script.js"></script>
-<!-- <script src="js/new.js"></script> -->
+  </body>
+  <script src="js/script.js"></script>
+  <!-- <script src="js/new.js"></script> -->
 </html>
