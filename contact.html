@@ -116,7 +116,7 @@
     </div>
     <div class="row">
       <div class="col-lg-7 col-sm-12">
-        <form class="contact__form" method="post" action="sendContact()">
+        <form class="contact__form" method="post" id="form">
           <!-- form message -->
           <div class="row">
             <div class="col-12">
@@ -134,7 +134,7 @@
             <div class="col-md-6 form-group">
               <input name="email" type="email" class="form-control" placeholder="Email" required id="emailInput">
             </div>
-            <div class="col-md-12 form-group">
+            <!-- <div class="col-md-12 form-group">
               <div class="container mt-5">
                 <select class="selectpicker" multiple aria-label="size 3 select example">
                   <option value="1">One</option>
@@ -143,12 +143,16 @@
                   <option value="4">Four</option>
                 </select>
               </div>
+            </div> -->
+            <div class="col-md-6 form-group">
+              <input name="course" type="text" class="form-control" placeholder="course" required id="subjInput">
             </div>
+            
             <div class="col-12 form-group">
               <textarea name="message" class="form-control" rows="6" placeholder="Message" required id="messageinput"></textarea>
             </div>
             <div class="col-12 mt-4">
-              <input name="submit" type="submit" class=" btn btn-hero btn-circled" value="Send Message">
+              <input name="submit" type="submit" class=" btn btn-hero btn-circled" value="submit">
             </div>
           </div>
         </form>
@@ -204,6 +208,24 @@
 
     <!-- main script -->
     <script src="js/script.js"></script>
+
+    <script>
+    const scripturl = 'https://script.google.com/macros/s/AKfycbyFdJx8K6U_a8EzLKkymS281E5SvoE6t7CswSHqm-c0XQ3Bjzbaq1TsfeU4NgWgGjLI/exec'
+    const form = document.querySelector('#form')
+    
+
+    form.addEventListener('submit', e=>{
+      e.preventDefault()
+
+      console.log(form)
+      fetch(scripturl, { method: 'POST', body: new FormData(form)})
+      .then(response => {alert('success!', response)})
+      .catch(error => alert('error', error.message))
+    })
+
+
+
+    </script>
 
   </body>
   </html>
