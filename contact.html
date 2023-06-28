@@ -129,10 +129,10 @@
           <!-- end message -->
           <div class="row">
             <div class="col-md-6 form-group">
-              <input name="name" type="text" class="form-control" placeholder="Name" required id="nameinput">
+              <input name="name" type="text" class="form-control" placeholder="name" required id="nameinput">
             </div>
             <div class="col-md-6 form-group">
-              <input name="email" type="email" class="form-control" placeholder="Email" required id="emailInput">
+              <input name="email" type="email" class="form-control" placeholder="email" required id="emailInput">
             </div>
             <!-- <div class="col-md-12 form-group">
               <div class="container mt-5">
@@ -149,7 +149,7 @@
             </div>
             
             <div class="col-12 form-group">
-              <textarea name="message" class="form-control" rows="6" placeholder="Message" required id="messageinput"></textarea>
+              <textarea name="message" class="form-control" rows="6" placeholder="message" required id="messageinput"></textarea>
             </div>
             <div class="col-12 mt-4">
               <input name="submit" type="submit" class=" btn btn-hero btn-circled" value="submit">
@@ -210,20 +210,19 @@
     <script src="js/script.js"></script>
 
     <script>
-    const scripturl = 'https://script.google.com/macros/s/AKfycbyFdJx8K6U_a8EzLKkymS281E5SvoE6t7CswSHqm-c0XQ3Bjzbaq1TsfeU4NgWgGjLI/exec'
-    const form = document.querySelector('#form')
+    const scriptURL = 'https://script.google.com/macros/library/d/1PxXiQ6v2ATepXRPxFip8rZqBXPsLf7EuPXkUzdA95rBZbgCVtRqSnPCY/3'
+    // const form = document.querySelector('#form')
     
-
-    form.addEventListener('submit', e=>{
-      e.preventDefault()
-
-      console.log(form)
-      fetch(scripturl, { method: 'POST', body: new FormData(form)})
-      .then(response => {alert('success!', response)})
-      .catch(error => alert('error', error.message))
-    })
-
-
+    // const scriptURL = ''
+			const form = document.forms['mastermindz']
+            
+          
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+          .catch(error => console.error('Error!', error.message))
+      })
 
     </script>
 
