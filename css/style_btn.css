@@ -1,0 +1,83 @@
+
+
+
+.btn.btn-primary {
+  display: flex;
+}
+
+
+.pseudo-bft-btn .btn {
+  position: relative;
+  overflow: hidden;
+  width: 17rem;
+  height: 51px;
+  /* font-family: FuturaPTBold,sans-serif; */
+  justify-content: center;
+  border: none;
+  padding: 5px 12px;
+}
+
+
+
+.btn {
+  height: 45px;
+  box-sizing: border-box;
+  font-style: normal;
+  background: transparent;
+  font-family: FuturaPT,sans-serif;
+  cursor: pointer;
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  cursor: default;
+}
+
+
+.btn-primary {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    121.19deg,
+    #ff8d1a,
+    #ff8d1a,
+    #ff8d1a,
+    #ff8d1a
+  );
+}
+
+.btn-primary::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0)
+  );
+  transform: rotate(0deg) translateX(-150%);
+  animation: shine 2.5s infinite;
+}
+
+@keyframes shine {
+  0% {
+    transform: rotate(0deg) translateX(-150%);
+  }
+  100% {
+    transform: rotate(0deg) translateX(150%);
+  }
+}

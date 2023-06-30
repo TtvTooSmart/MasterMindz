@@ -439,7 +439,7 @@ a:hover, a:visited {
 }
 
 .btn-primary:hover {
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
     border: 1px solid #000000;
 }
 
