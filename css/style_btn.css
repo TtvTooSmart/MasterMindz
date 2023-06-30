@@ -81,3 +81,10 @@
     transform: rotate(0deg) translateX(150%);
   }
 }
+
+
+
+.extra_curricular freedemobtn {
+  align-items: center;
+  justify-content: center;
+}
