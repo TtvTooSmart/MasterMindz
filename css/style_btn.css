@@ -88,3 +88,32 @@
   align-items: center;
   justify-content: center;
 }
+
+.midpagebtn {
+  margin: 100;
+  position: absolute;
+  top: 84.5%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.uppagebtn{
+margin: 100;
+position: absolute;
+left: 25%;
+}
+
+
+.uppagebtn-2{
+  margin: 100;
+  position: absolute;
+  left: 21%;
+  }
+
+
+  .uppagebtn-3{
+    margin: 100;
+    position: absolute;
+    left: 23%;
+    }
