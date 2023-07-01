@@ -1,138 +1,255 @@
 <!DOCTYPE html>
 
-
-
 <html lang="en">
-<head>
+  <head>
+    <!-- ** Basic Page Needs ** -->
+    <meta charset="utf-8" />
 
-  <!-- ** Basic Page Needs ** -->
-  <meta charset="utf-8">
+    <!-- ** Mobile Specific Metas ** -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
 
-  <!-- ** Mobile Specific Metas ** -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
+    <!-- Icofont -->
+    <link rel="stylesheet" href="plugins/icofont/icofont.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+    <link
+      rel="stylesheet"
+      href="css/bootstrap-multiselect.css"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/css/bootstrap-select.min.css"
+      integrity="sha512-mR/b5Y7FRsKqrYZou7uysnOdCIJib/7r5QeJMFvLNHNhtye3xJp1TdJVPLtetkukFn227nKpXD9OjUc09lx97Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js"
+      integrity="sha512-FHZVRMUW9FsXobt+ONiix6Z0tIkxvQfxtCSirkKc5Sb4TKHmqq1dZa8DphF0XqKb3ldLu/wgMa8mT6uXiLlRlw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_dropdown.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!--Favicon-->
+    <link
+      rel="icon"
+      href="images/icon/oie_tFXI9fXJk3BS.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body data-spy="scroll" data-target="#mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top trans-navigation">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/logo_header-removebg-preview.png"
+            alt=""
+            class="img-fluid b-logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <i class="fa fa-bars"></i>
+          </span>
+        </button>
 
-  
-  <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <!-- fontawesome css -->
-  <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
-  <!-- Icofont -->
-  <link rel="stylesheet" href="plugins/icofont/icofont.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
-  <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css"/>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/css/bootstrap-select.min.css" integrity="sha512-mR/b5Y7FRsKqrYZou7uysnOdCIJib/7r5QeJMFvLNHNhtye3xJp1TdJVPLtetkukFn227nKpXD9OjUc09lx97Q==" crossorigin="anonymous"
-  referrerpolicy="no-referrer" />
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js" integrity="sha512-FHZVRMUW9FsXobt+ONiix6Z0tIkxvQfxtCSirkKc5Sb4TKHmqq1dZa8DphF0XqKb3ldLu/wgMa8mT6uXiLlRlw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
-  
-  <!--Favicon-->
-  <link rel="icon" href="images/icon/oie_tFXI9fXJk3BS.png" type="image/x-icon">
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+          <ul class="navbar-nav" style="width: 100%">
+            <li class="nav-item dropdown" style="white-space: nowrap">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#!"
+                id="navbarWelcome"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Explore Courses <i class="fas fa-chevron-down"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarWelcome">
+                <li><a class="dropdown-item" href="chess.html">Chess</a></li>
+                <li><a class="dropdown-item" href="maths.html">Maths</a></li>
+                <li>
+                  <a class="dropdown-item" href="rubiks.html">Rubik's Cube</a>
+                </li>
+                <li><a class="dropdown-item" href="coding.html">Coding</a></li>
+                <li>
+                  <a class="dropdown-item" href="aiforkids.html">AI for kids</a>
+                </li>
 
-</head><body data-spy="scroll" data-target="#mainNav">
-<nav class="navbar navbar-expand-lg fixed-top trans-navigation">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">
-      <img src="images/logo_header-removebg-preview.png" alt="" class="img-fluid b-logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon">
-        <i class="fa fa-bars"></i>
-      </span>
-    </button>
+                <li
+                  class="dropdown dropdown-submenu dropright"
+                  style="white-space: nowrap"
+                >
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#!"
+                    id="dropdown0301"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Music</a
+                  >
 
-    <div class="collapse navbar-collapse justify-content-end" id="mainNav">
-      <ul class="navbar-nav" style="width: 100%;">
+                  <ul class="dropdown-menu" aria-labelledby="dropdown0301">
+                    <li>
+                      <a class="dropdown-item" href="guitar.html">Guitar</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="piano.html">Piano</a>
+                    </li>
+                    <li><a class="dropdown-item" href="drum.html">Drums</a></li>
+                  </ul>
+                </li>
+                <li
+                  class="dropdown dropdown-submenu dropright"
+                  style="white-space: nowrap"
+                >
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#!"
+                    id="dropdown0501"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Languages</a
+                  >
 
-        <li class="nav-item dropdown" style="white-space: nowrap;">
-          <a class="nav-link dropdown-toggle" href="#!" id="navbarWelcome" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Explore Courses <i class="fas fa-chevron-down"></i>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarWelcome">
-            <li><a class="dropdown-item" href="chess.html">Chess</a></li>
-            <li><a class="dropdown-item" href="maths.html">Maths</a></li>
-            <li><a class="dropdown-item" href="rubiks.html">Rubik's Cube</a></li>
-            <li><a class="dropdown-item" href="coding.html">Coding</a></li>
-            <li><a class="dropdown-item" href="aiforkids.html">AI for kids</a></li>
-                    
-            <li class="dropdown dropdown-submenu dropright" style="white-space: nowrap;">
-              <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Music</a>
-    
-              <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                <li><a class="dropdown-item" href="guitar.html">Guitar</a></li>
-                <li><a class="dropdown-item" href="piano.html">Piano</a></li>
-                <li><a class="dropdown-item" href="drum.html">Drums</a></li>
+                  <ul class="dropdown-menu" aria-labelledby="dropdown0501">
+                    <li>
+                      <a class="dropdown-item" href="german.html">German</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="french.html">French</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="spanish.html">Spanish</a>
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </li>
-            <li class="dropdown dropdown-submenu dropright" style="white-space: nowrap;">
-              <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Languages</a>
-    
-              <ul class="dropdown-menu" aria-labelledby="dropdown0501">
-                <li><a class="dropdown-item" href="german.html">German</a></li>
-                <li><a class="dropdown-item" href="french.html">French</a></li>
-                <li><a class="dropdown-item" href="spanish.html">Spanish</a></li>
-              </ul>
+            <li class="nav-item" style="white-space: nowrap">
+              <a class="nav-link smoth-scroll" href="contact.html"
+                >Why MasterMindz?</a
+              >
+            </li>
+            <li class="nav-item" style="white-space: nowrap">
+              <a class="nav-link smoth-scroll" href="#testimonial"
+                >Happy Parents</a
+              >
+            </li>
+            <li class="nav-item" style="white-space: nowrap">
+              <a class="nav-link smoth-scroll" href="contact.html"
+                >Book a Demo</a
+              >
             </li>
           </ul>
-        </li>
-        <li class="nav-item" style="white-space: nowrap;">
-          <a class="nav-link smoth-scroll" href="contact.html">Why MasterMindz?</a>
-        </li>
-        <li class="nav-item" style="white-space: nowrap;">
-          <a class="nav-link smoth-scroll" href="#testimonial"  >Happy Parents</a>
-        </li>
-        <li class="nav-item" style="white-space: nowrap;">
-          <a class="nav-link smoth-scroll" href="contact.html">Book a Demo</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!--MAIN HEADER AREA END -->
-<!--MAIN BANNER AREA START -->
-<br>
-<br>
-<!--MAIN HEADER AREA END -->
-<!--  Contact START  -->
-<section class="section-padding">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-sm-12 col-md-12">
-        <div class="mb-5">
-          <h2 class="mb-2">Book multiple free demo for your child</h2>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-7 col-sm-12">
-        <form class="contact__form" method="post" id="form" name="mastermindz">
-          <!-- form message -->
-          <div class="row">
-            <div class="col-12">
-              <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                Your message was sent successfully.
-              </div>
-              
+    </nav>
+    <!--MAIN HEADER AREA END -->
+    <!--MAIN BANNER AREA START -->
+    <br />
+    <br />
+    <!--MAIN HEADER AREA END -->
+    <!--  Contact START  -->
+    <section class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 col-md-12">
+            <div class="mb-5">
+              <h2 class="mb-2">Book multiple free demo for your child</h2>
             </div>
           </div>
-          <!-- end message -->
-          <div class="row">
-            <div class="col-md-6 form-group">
-              <input name="name" type="text" class="form-control" placeholder="Your Child's Name" required id="nameinput">
-            </div>
-            <div class="col-md-6 form-group">
-              <input name="email" type="email" class="form-control" placeholder="Your Email ID" required id="emailInput">
-            </div>
-            <!-- <div class="col-md-12 form-group">
+        </div>
+        <div class="row">
+          <div class="col-lg-7 col-sm-12">
+            <form
+              class="contact__form"
+              method="post"
+              id="form"
+              name="mastermindz"
+            >
+              <!-- form message -->
+              <div class="row">
+                <div class="col-12">
+                  <div
+                    class="alert alert-success contact__msg"
+                    style="display: none"
+                    role="alert"
+                  >
+                    Your message was sent successfully.
+                  </div>
+                </div>
+              </div>
+              <!-- end message -->
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input
+                    name="name"
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Child's Name"
+                    required
+                    id="nameinput"
+                  />
+                </div>
+                <div class="col-md-6 form-group">
+                  <input
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email ID"
+                    required
+                    id="emailInput"
+                  />
+                </div>
+                <!-- <div class="col-md-12 form-group">
               <div class="container mt-5">
                 <select class="selectpicker" multiple aria-label="size 3 select example">
                   <option value="1">One</option>
@@ -142,59 +259,139 @@
                 </select>
               </div>
             </div> -->
-            <div class="col-md-6 form-group">
+
+                <div class="container_dropdown-2">
+                  <div class="select-btn">
+                    <span class="btn-text">I Want Free Demos For...</span>
+                    <span class="arrow-dwn">
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                  </div>
+
+                  <ul class="list-items">
+                    <li class="item">
+                      <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text" name="chess" type="text"
+                        >Chess</span>
+                    </li>
+                    <li class="item">
+                      <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">Maths</span>
+                    </li>
+                    <li class="item">
+                      <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">Rubik's Cube</span>
+                    </li>
+                    <li class="item">
+                      <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">Coding</span>
+                    </li>
+                    <li class="item">
+                      <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">AI for Kids</span>
+                    </li>
+                    <li class="item">
+                      <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text"
+                        ><option value="guitar">Guitar</option></span
+                      >
+                    </li>
+                    <li class="item">
+                      <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">Piano</span>
+                    </li>
+                    <li class="item">
+                      <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">Drums</span>
+                    </li>
+                    <li class="item">
+                      <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">German</span>
+                    </li>
+                    <li class="item">
+                      <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">French</span>
+                    </li>
+                    <li class="item">
+                      <span class="checkbox">
+                        <i class="fa-solid fa-check check-icon"></i>
+                      </span>
+                      <span class="item-text">Spanish</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- <div class="col-md-6 form-group">
               <input name="course" type="text" class="form-control" placeholder="I want free demos for..." required id="subjInput">
-            </div>
-            
-            <!-- <div class="col-12 form-group">
+            </div> -->
+
+                <!-- <div class="col-12 form-group">
               <textarea name="message" class="form-control" rows="6" placeholder="message" required id="messageinput"></textarea>
             </div> -->
-            <div class="col-12 mt-4">
-              <input name="submit" type="submit" class=" btn btn-hero btn-circled" value="submit">
+                <div class="col-12 mt-4">
+                  <input
+                    name="submit"
+                    type="submit"
+                    class="btn btn-hero btn-circled"
+                    value="submit"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  CONTACT END  -->
+
+    <!--  FOOTER AREA START  -->
+    <section id="footer" class="section-padding">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="footer-widget footer-text">
+              <h4>Our Contact Details</h4>
+              <p class="mail"><span>Mail :</span> contact@mastermindz.co</p>
+              <p><span>Phone :</span> +91 85911 25396</p>
             </div>
           </div>
-        </form>
-      </div>
-
-      
-    </div>
-  </div>
-</section>
-<!--  CONTACT END  -->
-
-<!--  FOOTER AREA START  -->
-<section id="footer" class="section-padding">
-  <div class="container">
-    <div class="row justify-content-around">
-
- 
-
-      
-      <div class="col-lg-3 col-md-4 col-sm-12">
-        <div class="footer-widget footer-text">
-          <h4>Our Contact Details</h4>
-          <p class="mail"><span>Mail :</span> contact@mastermindz.co </p>
-          <p><span>Phone :</span> +91 85911 25396</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="footer-copy">
+              Copyright &copy; 2021, Designed &amp; Developed by TooSmart &amp;
+              SaGo
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <div class="footer-copy">
-          Copyright &copy; 2021, Designed &amp; Developed by TooSmart &amp; SaGo
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--  FOOTER AREA END  -->
-   
+    </section>
+    <!--  FOOTER AREA END  -->
 
     <!-- 
     Essential Scripts
     =====================================-->
 
-    
     <!-- Main jQuery -->
     <script src="plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap css -->
@@ -208,21 +405,46 @@
     <script src="js/script.js"></script>
 
     <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycby0LoQfWzc6ugdC8lMGAqA5e2ho9chYGpXAtj-c47T5TJLPxN-lVH0u8FdTbQ472oS8/exec'
-    // const form = document.querySelector('#form')
-    
-    // const scriptURL = ''
-			const form = document.forms['mastermindz']
-            
-          
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-          .catch(error => console.error('Error!', error.message))
-      })
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycby0LoQfWzc6ugdC8lMGAqA5e2ho9chYGpXAtj-c47T5TJLPxN-lVH0u8FdTbQ472oS8/exec";
+      // const form = document.querySelector('#form')
+
+      // const scriptURL = ''
+      const form = document.forms["mastermindz"];
+      const coursedata = null
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        console.log(new FormData(form));
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) =>
+            alert("Thanks for Contacting us..! We Will Contact You Soon...")
+          )
+          .catch((error) => console.error("Error!", error.message));
+      });
+
+
+          $(':checkbox').on('change', function() {
+      var values = $(':checkbox:checked').map(function() {
+        return this.value;
+      }).get().join(', ');
+      $(coursedata);
+      console.log(new FormData(coursedata))
+    });
+        
+
+        e.preventDefault();
+        console.log(new FormData(form));
+        fetch(scriptURL, { method: "POST", body: new FormData(coursedata) })
+          .then((response) =>
+            alert("Thanks for Contacting us..! We Will Contact You Soon...")
+          )
+          .catch((error) => console.error("Error!", error.message));
+
+
 
     </script>
 
+    <script src="js/dropdown.js"></script>
   </body>
-  </html>
+</html>
