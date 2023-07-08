@@ -4915,13 +4915,14 @@ padding: 70px 32px;
 }
 
 
-
+@media (max-width: 1319px) 
+{
 .customTabContent {
     display: none;
     justify-content: center;
     align-items: center;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .courseDetails .tablsAction {
     margin-bottom: 80px;
@@ -5043,7 +5044,7 @@ background: #DDDDF5;
 box-shadow: 15px 15px 55px rgba(0, 0, 0, 0.08), inset -55px -55px 55px #EAEAFD;
 }
 
-
+}
 
 .curriculumContent button.accordion {
     display: block;
