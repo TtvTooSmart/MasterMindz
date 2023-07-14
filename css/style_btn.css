@@ -89,6 +89,36 @@
   justify-content: center;
 }
 
+@media screen and (max-width:520px){
+  .midpagebtn {
+    margin: 100;
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .pseudo-bft-btn .btn{
+    margin: 100;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  } 
+
+  .midpagebtn-2 {
+    margin: 100;
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  
+}
+
 .midpagebtn {
   margin: 100;
   position: absolute;
@@ -97,6 +127,18 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+.midpagebtn-2 {
+  margin: 100;
+  position: absolute;
+  top: 84.5%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
 
 .uppagebtn{
 margin: 100;
