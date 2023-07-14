@@ -21,7 +21,11 @@
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style_contact.css">
+  <link rel="stylesheet" href="css/alert_contact.css">
   <!-- <link rel="stylesheet" href="css/dropdown.css"> -->
+  <link rel="stylesheet" href="css/reponsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   
 
@@ -37,7 +41,7 @@
 <nav class="navbar navbar-expand-lg fixed-top trans-navigation">
   <div class="container">
     <a class="navbar-brand" href="index.html">
-      <img src="images/logo.png" alt="" class="img-fluid b-logo">
+      <img src="images/logo_header-removebg-preview.png" alt="" class="img-fluid b-logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -98,14 +102,15 @@
 </nav>
 <!--MAIN HEADER AREA END -->
 <!--MAIN BANNER AREA START -->
-<br>
-<br>
-<br>
-<br>
+
 
 <!--MAIN HEADER AREA END -->
 <!--  Contact START  -->
 <section class="section-padding">
+  <br>
+<br>
+<br>
+<br>
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-sm-12 col-md-12">
@@ -128,116 +133,31 @@
             <!-- end message -->
             <div class="row">
               <div class="col-md-6 form-group">
-                <input name="name" type="text" class="form-control" placeholder="Your Child's Name" required
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required
                   id="nameinput" />
               </div>
               <div class="col-md-6 form-group">
                 <input name="email" type="email" class="form-control" placeholder="Your Email ID" required
                   id="emailInput" />
               </div>
-              <!-- <div class="col-md-12 form-group">
-              <div class="container mt-5">
-                <select class="selectpicker" multiple aria-label="size 3 select example">
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                  <option value="4">Four</option>
-                </select>
-              </div>
-            </div> -->
-
-              <!-- <div class="container" name="item" id="item">
-                <div class="select-btn">
-                  <span class="btn-text">I want Free Demos for...</span>
-                  <span class="arrow-dwn">
-                    <i class="fa-solid fa-chevron-down"></i>
-                  </span>
-                </div>
-                <ul class="list-items">
-                  <li class="item">
-                    <span class="checkbox">
-                      <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Ai for kids</span>
-                  </li>
-                  <li class="item">
-                    <span class="checkbox">
-                      <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Chess</span>
-                  </li>
-                  <li class="item">
-                    <span class="checkbox">
-                      <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Maths</span>
-                  </li>
-                  <li class="item">
-                    <span class="checkbox">
-                      <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Coding</span>
-                  </li>
-                  <li class="item">
-                    <span class="checkbox">
-                      <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Rubik's Cube</span>
-                  </li>
-                  <li class="item">
-                    <span class="checkbox">
-                      <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Drums</span>
-                  </li>
-                  <li class="item">
-                    <span class="checkbox">
-                      <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Guitar</span>
-                  </li>
-                  <li class="item">
-                    <span class="checkbox">
-                      <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Piano</span>
-                  </li>
-                  <li class="item">
-                    <span class="checkbox">
-                      <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">French</span>
-                  </li>
-                  <li class="item">
-                    <span class="checkbox">
-                      <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">German</span>
-                  </li>
-                  <li class="item">
-                    <span class="checkbox">
-                      <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Spanish</span>
-                  </li>
-                </ul>
-              </div> -->
-<!-- <br>
-
-              <br>
-              <br> -->
-              <!-- <br> -->
+              
               <span><br></span>
-              <div class="col-md-6 form-group">
+              <div class="col-3 form-group">
+                <input name="Phone_cc" type="text" class="form-control" placeholder="+91" required id="subjInput">
+              </div>
+
+              <div class="col-9 form-group">
                 <input name="Phone" type="text" class="form-control" placeholder="Phone Number" required id="subjInput">
               </div>
 
-              <div class="col-md-6 form-group">
+              <div class="col-md-12 form-group">
                 <input name="Courses" type="text" class="form-control" placeholder="Demo for Chess, Rubik's cube, etc..." required id="subjInput">
               </div>
 
               <div class="col-12 mt-4">
-                <input name="submit" type="submit" class="btn btn-hero btn-circled" value="submit" />
+                <button style="background: transparent; border: none;">
+                <input name="submit" type="submit" class="btn btn-hero btn-circled" value="submit" id="submit"/>
+              </button>
               </div>
             </div>
           </form>
@@ -246,10 +166,13 @@
     </div>
   </section>
   <!--  CONTACT END  -->
-
-  <!--  FOOTER AREA START  -->
-
-<!--  CONTACT END  -->
+  <!-- <div class="alert hide">
+    <span class="fa-solid fa-check"></span>
+    <span class="msg">Thanks for Contacting us..! We Will Contact You Soon...</span>
+    <div class="close-btn">
+       <span class="fas fa-times"></span>
+    </div>
+ </div> -->
 
 <!--  FOOTER AREA START  -->
 <section id="footer" class="section-padding">
@@ -304,7 +227,8 @@
           console.log(new FormData(form));
           fetch(scriptURL, { method: "POST", body: new FormData(form) })
             .then((response) =>
-              alert("Thanks for Contacting us..! We Will Contact You Soon...")
+              // alert("Thanks for Contacting us..! We Will Contact You Soon...")
+              alert_box()
             )
             .catch((error) => console.error("Error!", error.message));
         });
@@ -320,8 +244,27 @@
     
     
     
-    
       </script>
+
+<script>
+
+  // const submit = document.getElementById('submit') 
+
+  $('button').click(function(){
+    $('.alert').addClass("show");
+    $('.alert').removeClass("hide");
+    $('.alert').addClass("showAlert");
+    setTimeout(function(){
+      $('.alert').removeClass("show");
+      $('.alert').addClass("hide");
+    },5000);
+  });
+  $('.close-btn').click(function(){
+    $('.alert').removeClass("show");
+    $('.alert').addClass("hide");
+  });
+
+</script>
     
       <script src="js/multi.js"></script>
   </body>
