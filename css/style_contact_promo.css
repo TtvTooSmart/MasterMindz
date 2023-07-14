@@ -1,4 +1,30 @@
+/**
+ * WEBSITE: https://themefisher.com
+ * TWITTER: https://twitter.com/themefisher
+ * FACEBOOK: https://www.facebook.com/themefisher
+ * GITHUB: https://github.com/themefisher/
+ */
 
+/*=== MEDIA QUERY ===*/ /*
+* ----------------------------------------------------------------------------------------
+* 01.GLOBAL CSS STYLE
+* 02.PRELOADER & BOUNCE CCS STYLE
+* 03.HOMEPAGE CSS STYLE
+    -LOGO CSS
+    -MENU CSS
+* 04.ABOUT CSS STYLE
+* 05.SERVICE CSS STYLE
+* 06.WORK CSS STYLE
+* 07.AVAILABLE CSS STYLE
+* 08.CONTACT CSS STYLE
+* 09.FOOTER CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+/*
+* ----------------------------------------------------------------------------------------
+* 01.GLOBAL STYLE
+* ----------------------------------------------------------------------------------------
+*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700|Rubik:400,600,700");
 body {
   font-size: 16px;
@@ -7,7 +33,6 @@ body {
   font-family: "Rubik", sans-serif;
   color: #788487;
   position: relative;
-  scroll-behavior: smooth;
 }
 
 p {
@@ -126,7 +151,6 @@ h5.subtitle {
 
 .section-padding {
   padding: 90px 0px;
-  background-color: #dadada;
 }
 
 .section-heading {
@@ -218,7 +242,7 @@ h5.subtitle {
 }
 
 .btn-trans-black {
-  /* background-color: transparent; */
+  background-color: transparent;
   border: 2px solid rgba(0, 0, 0, 0.15);
   color: rgba(0, 0, 0, 0.85);
 }
@@ -229,7 +253,7 @@ h5.subtitle {
 }
 
 .btn-trans-white {
-  /* background-color: transparent; */
+  background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.15);
   color: rgba(255, 255, 255, 0.95);
 }
@@ -334,17 +358,13 @@ h5.subtitle {
 ----------------------------------*/
 .site-navigation,
 .trans-navigation {
-  padding: 10px 0px;
-} 
+  padding: 20px 0px;
+}
 
- .site-navigation .navbar-nav a,
+.site-navigation .navbar-nav a,
 .trans-navigation .navbar-nav a {
   text-transform: uppercase;
-  display: inline-block;
-  list-style: none;
-  justify-content: flex-end;
-
-} 
+}
 
 .site-navigation .navbar-nav a.active,
 .trans-navigation .navbar-nav a.active {
@@ -357,7 +377,6 @@ h5.subtitle {
   background: #111;
   z-index: 9999;
   width: 100%;
-  
   left: 0;
   transition: all 0.5s ease 0s;
   color: #000 !important;
@@ -366,7 +385,6 @@ h5.subtitle {
 .navbar-expand-lg.trans-navigation .navbar-nav .nav-link,
 .navbar-expand-lg.site-navigation .navbar-nav .nav-link {
   padding: 0px 24px;
-  
 }
 
 .navbar-expand-lg.trans-navigation .navbar-nav .nav-link:last-child,
@@ -396,26 +414,28 @@ h5.subtitle {
 }
 
 .trans-navigation {
-  background: #000000;
+  background: transparent;
 }
 
 .trans-navigation.header-white {
-  background: #000000;
+  background: #111;
 }
 
 .trans-navigation.header-white .navbar-nav .nav-link {
   color: #fff;
 }
 
-
+.trans-navigation.header-white .navbar-nav a.active {
+  color: #635CDB;
+}
 
 .navbar-brand img {
   max-width: 100%;
 }
 
 .trans-navigation.header-white .btn-white {
-  /* background: #635CDB; */
-  color: #ffffff;
+  background: #635CDB;
+  color: #fff;
 }
 
 /* ===============================
@@ -456,8 +476,7 @@ h5.subtitle {
 
 .dropleft .dropdown-menu,
 .dropright .dropdown-menu {
-  margin: 25;
-  padding: 20px;
+  margin: 0;
 }
 
 .dropleft .dropdown-toggle::before,
@@ -484,17 +503,6 @@ h5.subtitle {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
-  display: inline;
-  list-style:none;
-}
-
-.dropdown-item ul {
-  padding:0;
-  list-style:none;
-}
-
-.dropdown-item li {
-  display:inline-block;
 }
 
 .dropdown-submenu.active > .dropdown-toggle,
@@ -502,7 +510,7 @@ h5.subtitle {
 .dropdown-item.active,
 .dropdown-item:hover {
   background: rgba(99, 92, 219, 0.1);
-  /* color: #635CDB; */
+  color: #635CDB;
 }
 
 button:focus {
@@ -576,7 +584,7 @@ ul.dropdown-menu li {
 
 .banner-content .subtitle {
   color: #fff;
-  /* background: #635CDB; */
+  background: #635CDB;
   display: inline-block;
   padding: 3px 8px;
   margin-bottom: 20px;
@@ -615,7 +623,7 @@ ul.dropdown-menu li {
 }
 
 .banner-3 {
-  background: url("../images/background/website_background_image_main.png");
+  background: url("../images/banner/banner-bg.jpg");
   background-size: cover;
   position: relative;
 }
@@ -702,10 +710,19 @@ INner Pages
 #about {
   position: relative;
   padding-bottom: 85px;
-
 }
 
-
+.about-bg-img {
+  position: absolute;
+  right: 0px;
+  content: "";
+  background: url("../images/banner/1.jpg") 50% 50%;
+  width: 40%;
+  height: 100%;
+  max-height: 560px;
+  top: 0px;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+}
 
 .about-content {
   margin-top: 94px;
@@ -769,7 +786,6 @@ HISTORY MISSION
 ==============================*/
 .img-block img {
   width: 200px;
-  height: auto;
 }
 
 /* ========================
@@ -1014,7 +1030,7 @@ SERVICE PAGE
 
 .pricing-block:hover i {
   background-image: -webkit-linear-gradient(135deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
-  background-image: -linear-gradient(135deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
+  background-iamge: -linear-gradient(135deg, #2f1ce0 0%, #53a0fd 50%, #51eca5 100%);
   color: #fff;
   border: 1px solid #53a0fd;
 }
@@ -1088,7 +1104,6 @@ PRICING PAGE
   padding: 0px 40px;
   text-align: center;
   margin-bottom: 40px;
-  /* background-color: #dedede; */
 }
 
 .testimonial-content .author-text {
@@ -1344,7 +1359,6 @@ BLOG SINGLE
   position: relative;
   background: url("../images/bg/2.png");
   border-top: 1px solid #eee;
-  background-color: #8884da;
 }
 
 .footer-widget ul li {
@@ -1434,14 +1448,9 @@ BLOG SINGLE
     height: auto;
     padding: 5px 0px;
     width: 1rem;
-    
   }
   .trans-navigation {
     background: #232323;
-  }
-
-  .ul .navbar-nav{
-    justify-content: flex-end;
   }
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
@@ -1476,7 +1485,6 @@ BLOG SINGLE
   }
   #about {
     padding-bottom: 40px;
-
   }
   /*--------------
      COUNTER
@@ -1548,7 +1556,6 @@ BLOG SINGLE
   }
   #about {
     padding-bottom: 40px;
-    
   }
   /*-------------------
      TESTIMONIAL
@@ -1731,96 +1738,4 @@ BLOG SINGLE
     margin-bottom: 30px;
   }
 }
-
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
-
-:root {
-  --accent-color: #a876aa;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #eee;
-  color: #444;
-}
-
-h1 {
-  margin: 50px 0 30px;
-  text-align: center;
-  color: var(--accent-color);
-}
-
-.faq-container {
-  max-width: 600px;
-  margin: 0 auto;
-  border-radius: 10px;
-  background-color: #fff;
-  overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-}
-
-.faq {
-  box-sizing: border-box;
-  background: transparent;
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-}
-
-.faq:not(:first-child) {
-  border-top: 1px solid #e6e6e6;
-}
-
-.faq-title {
-  margin: 0 35px 0 0;
-}
-
-.faq-text {
-  margin: 30px 0 0;
-  display: none;
-  line-height: 1.5rem;
-}
-
-.faq.active {
-  background-color: #f8f8f8;
-  box-shadow: inset 4px 0px 0px 0px var(--accent-color);
-}
-
-.faq.active .faq-title {
-  color: var(--accent-color);
-}
-
-.faq.active .faq-text {
-  display: block;
-}
-
-.faq-toggle {
-  background-color: transparent;
-  border: 1px solid #e6e6e6;
-  color: inherit;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  padding-top: 3px;
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  height: 30px;
-  width: 30px;
-  transition: 0.3s ease;
-}
-
-.faq-toggle:focus {
-  outline: none;
-}
-
-.faq.active .faq-toggle {
-  transform: rotate(180deg);
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-  color: #fff;
-}
+/*# sourceMappingURL=style.css.map */
