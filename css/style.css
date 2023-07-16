@@ -1824,3 +1824,24 @@ h1 {
   border-color: var(--accent-color);
   color: #fff;
 }
+
+
+.item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+  margin: 0 8px;
+  color: #1E3050;
+  opacity: 0.75;
+  justify-content: center;
+  align-items: center;
+}
+
+.item.social > a:hover {
+  opacity: 0.9;
+}
