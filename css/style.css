@@ -1855,11 +1855,6 @@ h1 {
 
 }
 
-.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
-  -webkit-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
 
 .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
   font-size: 25px;
@@ -1906,11 +1901,11 @@ h1 {
 }
 
 .rounded-social-buttons .social-button.instagram {
-  background: #125688;
+  background: #E1306C;
 }
 
 .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
-  color: #125688;
+  color: #E1306C;
   background: #fefefe;
-  border-color: #125688;
+  border-color: #E1306C;
 }
