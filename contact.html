@@ -227,8 +227,8 @@
           console.log(new FormData(form));
           fetch(scriptURL, { method: "POST", body: new FormData(form) })
             .then((response) =>
-              // alert("Thanks for Contacting us..! We Will Contact You Soon...")
-              alert_box()
+              alert("Thanks for Contacting us..! We Will Contact You Soon...")
+              // alert_box()
             )
             .catch((error) => console.error("Error!", error.message));
         });
